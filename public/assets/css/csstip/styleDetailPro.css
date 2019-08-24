@@ -1,0 +1,34 @@
+.t-ContentDetail{
+	padding: 0px;
+	border-radius: 5px;
+	background-color: #FFFFFF;
+}
+.t-linkProduct{
+	margin-top: 25px;
+	margin-left: 40px;
+	font-size: 14px;
+}
+.t-wapHeadProduct{
+	margin: 25px auto;
+	width: 95%;	
+}
+.t-fixRow{
+	margin-top: 25px;
+	padding-left: 35px;
+}
+.bigTextProductSite{
+	padding: 5px 15px;
+	font-size: 18px;
+	font-weight: bold;
+	border-left: 4px solid #fd7e14;
+
+}
+.t-infoProDetail{
+	margin: 25px auto;
+	width: 85%;
+	font-size: 12px;
+}
+.t-wrapSuggesProd{
+	width: 95%;
+	margin: 25px auto;
+}

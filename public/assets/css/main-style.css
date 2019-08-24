@@ -1,0 +1,117 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 16px; 
+	font-style: normal; 
+	font-variant: normal;
+}
+.wrapPage{
+	width: 100%;
+	background-color: #DDDDDD;
+	margin: 0px;
+	padding: 0px;
+}
+.row{
+	margin: 0px!important;
+	padding: 0px!important;
+}
+.deletePadding{
+	padding-right: 0px!important;
+    padding-left: 0px!important;
+}
+
+}
+.clear {
+	clear: both;
+}
+.blockSection{
+	margin: 0px auto;
+	width: 99%;
+	background-color: #FFFFFF;
+}
+
+/* Header CSS */
+.scrollTopHeader{
+	width: 100%;
+	padding: 0px;
+	font-size: 10px;
+	font-weight: bold;
+	scroll-behavior: smooth;
+	background-color: #00FF00;
+	color: 	#FF6600;
+}
+.scrollTopHeader:hover{
+	color: #FF0000;
+	font-size: 12px;
+}
+.logoRow{
+	width: 99%;
+	background-color: #FFFFFF;
+}
+.logoRow .imgLogoWrap{
+	float: left;
+	padding: 4px;
+}
+.logoRow .textLogoWrap{
+	float: left;
+	padding: 4px;
+}
+.logoRow .imgLogoHeader{
+	width: 40px;
+}
+.logoRow .textLogo1{
+	font-size: 28px;
+	font-weight: bold;
+	color: #FF0000;
+	font-family: "Bebas Neue";
+	text-decoration: underline;
+}
+.logoRow .textLogo2{
+	font-size: 14px;
+	font-weight: bold;
+	color: #FF6600;
+	font-family: "Bebas Neue";
+}
+.textLogo1:hover{
+	color: #FF00FF;
+}
+.textLogo2:hover{
+	color: #FF00FF;
+}
+
+.bg-light{
+	background-color: transparent!important;
+}
+
+
+/* configure responsive */
+@media screen and (min-width: 769px) 
+and (max-width: 1200px){
+	.logoRow .imgLogoWrap{
+		margin-left: 8%;
+	}
+	.logoRow .imgLogoHeader{
+		width: 50px;
+	}
+	.logoRow .textLogo1{
+		font-size: 38px;
+	}
+	.logoRow .textLogo2{ 	 
+		font-size: 14px;
+	}
+}
+@media screen and (min-width: 1200px){
+	.logoRow .imgLogoWrap{
+		margin-left: 10%;
+	}
+	.logoRow .imgLogoHeader{
+		width: 70px;
+	}
+	.logoRow .textLogo1{
+		font-size: 48px;
+	}
+	.logoRow .textLogo2{ 	 
+		font-size: 16px;
+	}
+}

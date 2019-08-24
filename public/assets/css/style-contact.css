@@ -1,0 +1,140 @@
+.section-contact {
+    padding-top: 30px;
+}
+
+.row-1-contact h4 {
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-left: 5px solid;
+    border-color: green;
+    font-weight: 700 !important;
+    width: 100%;
+    background-color: beige;
+    border-radius: 5px;
+}
+
+#map iframe {
+    width: 100%;
+    height: 500px;
+}
+
+.section-contact .row {
+    margin-bottom: 30px;
+}
+
+.row-2-contact p {
+    font-weight: 500;
+}
+
+.col-contact-customer-info input,
+.col-contact-customer-info textarea {
+    width: 100%;
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.col-contact-customer-info .row {
+    padding: 0px !important;
+    margin-bottom: 10px !important;
+}
+
+.submit-sent-info {
+    font-weight: 600;
+    padding-top: 3px !important;
+    padding-bottom: 3px !important;
+    border-radius: 5px;
+    width: 100%;
+    background-color: white;
+    transition: all .2s ease-in;
+}
+
+.submit-sent-info:hover {
+    background-color: rgb(247, 143, 30);
+    color: white;
+}
+
+.logo-contact {
+    width: 100%
+}
+
+.logo-contact img {
+    width: 40%;
+}
+
+.row-contact-batron-info h6 {
+    color: rgb(247, 143, 30);
+}
+
+.row-contact-batron-info p {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.row-contact-batron-info {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.row-logo-batron-contact {
+    margin-bottom: 5px !important;
+}
+
+.col-4-contact {
+    background-color: rgb(242, 242, 242);
+    border-radius: 10px;
+}
+
+.mailing-banhmi-contact {
+    text-decoration: none;
+    color: black;
+}
+
+.mailing-banhmi-contact:hover {
+    text-decoration: none;
+    color: rgb(247, 143, 30);
+}
+
+.row-regis-for-more-info {
+    display: flex;
+    justify-content: center;
+}
+
+.lbl-contact-regis {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 10px;
+    margin-right: 50px;
+    border-bottom: 3px solid;
+    border-color: rgb(247, 143, 30);
+}
+
+.email-contact-regis {
+    margin-right: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 12px;
+    height: 30px;
+    width: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border-radius: 7px;
+}
+
+.submit-contact-regis {
+    background-color: rgb(247, 143, 30);
+    border-radius: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 10px;
+    height: 100% !important;
+    color: white;
+}
+
+#footer-id {
+    background-color: rgb(242, 242, 242);
+}
