@@ -14,113 +14,124 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/main-style.css">
+
+    <!-- HOME CSS -->
+    <link rel="stylesheet" href="assets/css/home-style.css">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
+    <!--   jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
 </head>
 
 <body class="wrapPage">   
     <section class="blockSection">
-        <marquee class="scrollTopHeader" behavior="scroll" direction="left">
-            Làm Web Có Tâm 🤗 => Thiết Kế Web - App - Phần Mềm Quản Lý + Nhận Làm Outsources + Nhận Làm Project Đồ Án 
-            🤗 => Nhanh - Rẻ - Uy Tín 👍
-        </marquee>
-        <div class="clear"></div>
-        <div class="row logoRow">
-            <div class="col-12 col-md-6 .col-xl-4 deletePadding">
-                <a href="../Home.html" "Home">
-                    <div class="imgLogoWrap">
-                        <img src="images/basic/logo-title.gif" class="imgLogoHeader">
+        <?php
+            require "blocksite/header.php";
+        ?>
+    </section>
+    <section class="blockSection">
+        <div class="row bodyHomeSite">
+            <div class="col-12 col-md-2 deletePadding colAddMarginTop leftContentSildeHomelarge">
+                <div class="row bodyHomeContentCol">
+                    <div class="titleSildeRight" align="center">
+                        <i class="fas fa-hand-point-right"></i>
+                        <span>Nội Dúng Nổi Bật</span>
                     </div>
-                    <div class="textLogoWrap">
-                        <div class="clear"></div>
-                        <span class="textLogo1">Tip-Ocho</span> 
-                        <span class="textLogo2">STUDIO</span> 
-                    </div> 
-                </a>                   
+                </div>
             </div>
-            <div class="col-12 col-md-6 .col-xl-8 deletePadding">
-                
+            <div class="clear"></div>
+            <div class="col-12 col-md-7 deletePadding colAddMarginTop">
+                <div class="row bodyHomeContentCol">
+                    <div class="col-12 col-sm-6 deletePadding">
+                        <h5 class="itemLinkPartHome">ss ssssssss sss</h5>
+                        <h5 class="itemLinkPartHome">ssssss sss ssss</h5>
+                        <h5 class="itemLinkPartHome">ssssss ssss ss</h5>
+                    </div>
+                    <div class="col-12 col-sm-6 deletePadding">
+                        <h5 class="itemLinkPartHome">ssss ssss sss ss</h5>
+                        <h5 class="itemLinkPartHome">ss sssssss ssss</h5>                        
+                    </div>                    
+                </div>                
+            </div>
+
+            <!-- left content with mobile drive -->
+            <div class="col-12 col-md-2 deletePadding colAddMarginTop leftContentSildeHomeMobile">
+                <div class="row bodyHomeContentCol">
+                    <div class="titleSildeRight" align="center">
+                        <i class="fas fa-hand-point-right"></i>
+                        <span>Nội Dúng Nổi Bật</span>
+                    </div>
+                </div>
+            </div>
+            <div class="clear"></div>
+            <div class="col-12 col-md-3 deletePadding colAddMarginTop">
+                <div class="row bodyHomeContentCol">
+                    <div class="titleSildeRight" align="center">
+                        <i class="fas fa-hand-point-right"></i>
+                        <span>Bài Viết Mới</span>
+                    </div>
+                    <div class="postNewListWrap">
+                        <div class="row postNewWrap">
+                            <div class="col-4 deletePadding">
+                                <div class="wrapImgNewPost" align="left">
+                                    <img src="images/post-img/cl.jpg" class="rounded imgNewPost">
+                                </div>
+                            </div>
+                            <div class="col-8 deletePadding">
+                                <div class="row titleNewPostItem">
+                                    <a href="" class="titleTextNewPostItem">email me</a>
+                                </div>
+                                <div class="row descrisNewPostItem">
+                                    fdnnnnnnnnnnnnnsb
+                                    tghkvglmgjd fdjjdj  dfjfhđhfcfghdn ndxsdg cdjn
+                                    gfmmvghfb sdhrhrddhyr
+                                    gmfjv
+                                </div>
+                            </div>
+                        </div>
+                         <div class="row postNewWrap">
+                            <div class="col-4 deletePadding">
+                                <div class="wrapImgNewPost" align="left">
+                                    <img src="images/post-img/2569475.jpg" class="rounded imgNewPost">
+                                </div>
+                            </div>
+                            <div class="col-8 deletePadding">
+                                <div class="row titleNewPostItem">
+                                    <a href="" class="titleTextNewPostItem">email me</a>
+                                </div>
+                                <div class="row descrisNewPostItem">
+                                    fdnnnnnnnnnnnnnsb
+                                    tghkvglmgjd fdjjdj  dfjfhđhfcfghdn ndxsdg cdjn
+                                    gfmmvghfb sdhrhrddhyr
+                                    gmfjv
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>               
             </div>
         </div>
-        
-        <nav class="navbar navbar-expand-lg navbar-light bg-light nav-menu text-center navbarMenuHeader">
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse center-menu" id="navbarSupportedContent">
-                <ul class=" navbar-nav mx-auto ">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="../Home.html">TRANG CHỦ </a>
-                    </li>
-
-
-                    <li class="nav-item dropdown active">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            ĐẶC SẢN BÌNH ĐỊNH
-                        </a>
-                        <div class="dropdown-menu  drpdwn" aria-labelledby="navbarDropdown">
-                            <ul>
-
-
-                                <li> <a class="dropdown-item " href="" ></a>
-                                    <ul>
-                                        <li><a class="" href="">db bffs f</a></li>
-                                        <li><a class="" href="">db bffs f</a></li>
-                                        <li><a class="" href="">db bffs f</a></li>
-                                        
-                                    </ul>
-                                </li>
-
-                                <li> <a class="dropdown-item " href="" ></a>
-                                    <ul>
-                                        <li><a class="" href="">db bffs f</a></li>
-                                        <li><a class="" href="">db bffs f</a></li>
-                                        <li><a class="" href="">db bffs f</a></li>
-                                        
-                                    </ul>
-                                </li>
-
-                                <li> <a class="dropdown-item " href="" ></a>
-                                    <ul>
-                                        <li><a class="" href="">db bffs f</a></li>
-                                        <li><a class="" href="">db bffs f</a></li>
-                                        <li><a class="" href="">db bffs f</a></li>
-                                        
-                                    </ul>
-                                </li>
-                            </ul>
-                        </div>
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link" href="../Am-Thuc-Binh-Dinh.html">ẨM THỰC BÌNH ĐỊNH</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../Du-Lich-Binh-Dinh.html">DU LỊCH BÌNH ĐỊNH</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../Bai-Viet-Ve-Shop.html">VỀ SHOP</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="../Lien-He.html">LIÊN HỆ</a>
-                    </li>
-
-
-                </ul>
-
-            </div>
-        </nav>
+    </section> 
+    <section class="blockSection">
+        <?php
+            require "blocksite/fooder.php";
+        ?>
     </section>
+
     
+    <!--   jquery -->
+    <script src="assets/js/main-js.js" type="text/javascript" charset="utf-8"></script>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>    
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 </body>
 
 </html>

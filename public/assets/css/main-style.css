@@ -20,15 +20,16 @@
 	padding-right: 0px!important;
     padding-left: 0px!important;
 }
-
-}
 .clear {
 	clear: both;
+}
+.colAddMarginTop{
+	margin-top: 5px;
 }
 .blockSection{
 	margin: 0px auto;
 	width: 99%;
-	background-color: #FFFFFF;
+	margin-bottom: 10px;
 }
 
 /* Header CSS */
@@ -46,7 +47,7 @@
 	font-size: 12px;
 }
 .logoRow{
-	width: 99%;
+	width: 100%;
 	background-color: #FFFFFF;
 }
 .logoRow .imgLogoWrap{
@@ -79,13 +80,115 @@
 .textLogo2:hover{
 	color: #FF00FF;
 }
-
-.bg-light{
-	background-color: transparent!important;
+.topNavbarHome{
+	background-color: #FF6600!important;
+}
+.navbar .btnSearchHome{
+	background-color: #FFFFFF!important;
+	margin: 1px auto!important;
+}
+.navbar .btnSearchHome:hover{
+	background-color: #28a745!important;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+.navbar .itemLinkHome .itemNavLink{
+    color: #FFFFFF!important;
+}
+.navbar .itemLinkHome .itemNavLink:hover{
+    color: #28a745!important;
 }
 
+/* Body Content Style */
+.bodyHomeContentCol, .fooderHomeSite{
+	width: 100%;
+	margin: 5px auto;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+.bodyHomeContentCol .itemLinkPartHome{
+	border-left: 3px solid #FF0000;
+	margin-left: 10px;
+	margin-top: 10px;
+	padding-left: 5px;
+	color: #FF6600;
+	-webkit-animation: my 50ms infinite;
+	-moz-animation: my 50ms infinite; 
+	-o-animation: my 100ms infinite; 
+	animation: my 50ms infinite;
+}
+.bodyHomeContentCol .itemLinkPartHome:hover{
+	text-decoration: underline;
+}
+.midFooterContent{
+	padding-left: 10px;
+}
 
+/* Làm chữ nhấp nháy */
+@-webkit-keyframes my {
+	 0% { color: #990099; } 
+	 50% { color: #FF6600;  } 
+	 100% { color: #00FF00;  } 
+ }
+ @-moz-keyframes my { 
+	 0% { color: #990099;  } 
+	 50% { color: #FF6600;  }
+	 100% { color: #00FF00;  } 
+ }
+ @-o-keyframes my { 
+	 0% { color: #990099; } 
+	 50% { color: #FF6600; } 
+	 100% { color: #00FF00;  } 
+ }
+ @keyframes my { 
+	 0% { color: #FF6600;  }
+	 100% { color: #00FF00;  } 
+ } 
+
+
+/* Fooder Style */
+.fooderHomeSite .custom-footer{
+	width: 100%;
+}
+.logo-footer{
+	width: 50%;
+	margin: 15px auto;
+}
+.endPageCopyRight{
+	margin: 2px auto;
+	font-size: 12px;
+	color: #CCCCCC;
+}
+
+/*change silde content mobile vs pc*/ 
+.leftContentSildeHomelarge{
+	display: none;
+}
 /* configure responsive */
+@media screen and (min-width: 576px) 
+and (max-width: 768px){
+	.logoRow .imgLogoWrap{
+		margin-left: 5%;
+	}
+	.logoRow .imgLogoHeader{
+		width: 40px;
+	}
+	.logoRow .textLogo1{
+		font-size: 30px;
+	}
+	.logoRow .textLogo2{ 	 
+		font-size: 12px;
+	}
+	.itemLinkHome{
+		margin-left: 2%;
+	}
+	.bodyHomeContentCol{
+		width: 99%;
+		margin: 2px auto;
+	}
+}	
 @media screen and (min-width: 769px) 
 and (max-width: 1200px){
 	.logoRow .imgLogoWrap{
@@ -99,6 +202,19 @@ and (max-width: 1200px){
 	}
 	.logoRow .textLogo2{ 	 
 		font-size: 14px;
+	}
+	.itemLinkHome{
+		margin-left: 5%;
+	}
+	.bodyHomeContentCol{
+		width: 99%;
+		margin: 5px auto;
+	}
+	.leftContentSildeHomelarge{
+		display: block;
+	}
+	.leftContentSildeHomeMobile{
+		display: none;
 	}
 }
 @media screen and (min-width: 1200px){
@@ -114,4 +230,18 @@ and (max-width: 1200px){
 	.logoRow .textLogo2{ 	 
 		font-size: 16px;
 	}
+	.itemLinkHome{
+		margin-left: 5%;
+	}
+	.bodyHomeContentCol{
+		width: 99%;
+		margin: 5px auto;
+	}
+	.leftContentSildeHomelarge{
+		display: block;
+	}
+	.leftContentSildeHomeMobile{
+		display: none;
+	}
+}
 }
