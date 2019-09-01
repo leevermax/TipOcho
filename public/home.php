@@ -47,26 +47,26 @@
             <div class="clear"></div>
             <div class="col-12 col-md-7 deletePadding colAddMarginTop">
                 <div class="row bodyHomeContentCol">
-                    <div class="col-12 col-sm-6 deletePadding">
-                        <h5 class="itemLinkPartHome">ss ssssssss sss</h5>
-                        <h5 class="itemLinkPartHome">ssssss sss ssss</h5>
-                        <h5 class="itemLinkPartHome">ssssss ssss ss</h5>
+                    <div class="row contentHomeCenter1">
+                        <div class="col-12 col-sm-6 deletePadding">
+                            <h5 class="itemLinkPartHome">Chúng Tôi Làm Những Gì</h5>   
+                            <h5 class="itemLinkPartHome">Quy Trình Thực Hiện Dự Án</h5>
+                            <h5 class="itemLinkPartHome">Cam Kết Của Chúng Tôi</h5>
+                        </div>
+                        <div class="col-12 col-sm-6 deletePadding">
+                            <h5 class="itemLinkPartHome">Nhận Các Dự Án OutSources</h5>
+                            <h5 class="itemLinkPartHome">Ưu Đãi Và Quà Tặng</h5>
+                            <h5 class="itemLinkPartHome">Đội Ngũ Của Tôi</h5>                      
+                        </div> 
+                        <div class="lableFooterTop">
+                            <h3 class="lableFooterPartHome">Đồng Hành Cùng Phát Triển Doanh Nghiệp Của Bạn.</h3>
+                            <h4 class="lableFooterPartHome">Phát Triển Các Sản Phẩm Công Nghệ Với Đa Nền Tảng: PHP, Java, .Net, Mobile...</h4>
+                        </div>     
                     </div>
-                    <div class="col-12 col-sm-6 deletePadding">
-                        <h5 class="itemLinkPartHome">ssss ssss sss ss</h5>
-                        <h5 class="itemLinkPartHome">ss sssssss ssss</h5>                        
-                    </div>                    
-                </div>                
-            </div>
-
-            <!-- left content with mobile drive -->
-            <div class="col-12 col-md-2 deletePadding colAddMarginTop leftContentSildeHomeMobile">
-                <div class="row bodyHomeContentCol">
-                    <div class="titleSildeRight" align="center">
-                        <i class="fas fa-hand-point-right"></i>
-                        <span>Nội Dúng Nổi Bật</span>
-                    </div>
-                </div>
+                    <div class="contentHomeCenter2">
+                        
+                    </div>             
+                </div>                               
             </div>
             <div class="clear"></div>
             <div class="col-12 col-md-3 deletePadding colAddMarginTop">

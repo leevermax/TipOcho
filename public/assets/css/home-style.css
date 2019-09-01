@@ -60,3 +60,28 @@
 	text-overflow: ellipsis;
 	font-size: 14px;
 }
+.contentHomeCenter1{
+	background-image: url("images/basic/pexels.jpeg");
+	height: 250px;
+	margin-top: 25px!important;
+	border-bottom: 5px solid #FF6600;
+}
+.lableFooterTop{
+	margin: auto;
+	height: 150px;
+	margin-top: 25px;
+	text-align: center;
+}
+.lableFooterPartHome{
+	margin-left: 10px;
+	margin-top: 10px;
+	padding-left: 5px;
+	color: #FF6600;
+	-webkit-animation: my 790ms infinite;
+	-moz-animation: my 50ms infinite; 
+	-o-animation: my 10ms infinite; 
+	animation: my 50ms infinite;
+}
+.contentHomeCenter2{
+	
+}
