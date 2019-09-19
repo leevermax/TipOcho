@@ -1,0 +1,149 @@
+/*HTML*/
+                <div class="row bodyHomeContentCol">
+                    <div class="row contentCategoryCenter1">
+                    	<div class="row titleMainOfCategory">
+                    		<i class="fas fa-drafting-compass"></i>
+                    		<h1> aaaaaaaaaaa</h1>
+                    	</div>
+                    	<div class="postMainOfCategory">
+                    		<p>degfv egbvbds sdbegdsb
+                    		efbherh zdxfnb dfxfn</p>
+                    	</div>
+                    </div>
+                    <div class="row contentCategoryCenter2">
+                    	<div class="titleSildeRight" align="center">
+	                        <i class="fas fa-hand-point-right"></i>
+	                        <span>Bài Viết Mới</span>
+	                    </div>
+                        <div class="wrapPostOfCategory">
+                        	<div class="imgPostOfCategory">
+                        		<img src="https://ichef.bbci.co.uk/news/660/cpsprodpb/23ED/production/_104679190_0c02a63e-d285-4642-90da-5ddaeb915b10.jpg" class="rounded imgPostCat">
+                        	</div>
+                        	<div class="contentTextPostCategory">
+                        		<div class="titlePostCategory">
+                        			<a href="">
+                        				<h2 class="titleTextPostCat">aaaaaaaaaaaaaaaa aaaaaaaaaaaaf qA AS AAS ASA AS AS DSS Adb as</h2>
+                        			</a>	
+                        		</div>
+                        		<div class="desrectionPostCat">
+                        			ãdscassssdvd
+                        		</div>
+                        		<div class="row datePostAndViewa">
+                        			<div class="datePostCat"><i class="fas fa-upload"></i><span> 12/02/2019</span></div>
+                        			<div class="viewsPostCat"><i class="fas fa-eye"></i> 2222</div>
+                        		</div>
+                        	</div>
+                        </div>
+                       
+                    </div>             
+                </div> 
+                
+ /*css*/
+ 
+.contentCategoryCenter1{
+	width: 100%;
+	min-width: 415px;
+	margin-top: 25px!important;
+	background-color: #FFFFFF;
+}
+.titleMainOfCategory{
+	width: 100%;
+	height: auto;
+	color: #FF3300;
+	font-family: Brush Script MT, Brush Script Std;
+	padding: 4px;
+	border: 3px solid #FF6633;
+	border-radius: 15px;
+}
+.fa-drafting-compass{
+	font-size: 26px;
+	margin-top: 12px;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #00FF00!important;
+}
+.postMainOfCategory{
+	width: 100%;
+	margin-top: 5px;
+	border: 1px solid #CCCCCC;
+	padding: 4px;
+}
+/* Post Of Category:*/
+.contentCategoryCenter2{
+	width: 100%;
+	height: auto;
+	margin-top: 25px!important;
+	background-color: #FFFFFF;
+}
+.wrapPostOfCategory{
+	width: 100%;
+	min-width: 415px;
+	margin-top: 15px!important;
+	margin: auto;
+	border: 1px solid #000000;
+	transition-duration: 0.5s;
+        /* Safari & Google Chrome */
+        -webkit-transition-duration: 0.5s; 
+        /* Mozilla Firefox */
+        -moz-transition-duration: 0.5s; 
+        /* Opera */
+        -o-transition-duration: 0.5s;
+        /* IE 9 */
+        -ms-transition-duration: 0.5s;
+}
+.wrapPostOfCategory:hover {
+	background-color: #EEEEEE;
+    transform: scale(1.02);
+        /* Safari & Google Chrome - kích thước phóng ra*/
+        -webkit-transform: scale(1.02);
+        /* Mozilla Firefox - kích thước phóng ra*/
+        -moz-transform: scale(1.02); 
+        /* Opera - kích thước phóng ra*/
+        -o-transform: scale(1.02);
+        /* IE 9 - kích thước phóng ra*/
+        -ms-transform: scale(1.02);
+    cursor: pointer; 
+}
+.imgPostOfCategory{
+	width: 180px;
+	height: 146px;
+	float: left;
+	background-color: blue;
+}
+.imgPostOfCategory .imgPostCat{
+	width: 100%;
+	height: 146px
+}
+.contentTextPostCategory{
+	width: calc(100% - 182px);
+	height: 146px;
+	float: left;
+}
+.titlePostCategory{
+	height: 38px;
+	padding: 2px;
+	overflow: hidden;
+}
+.titleTextPostCat{
+	color: #FF6600;
+	text-decoration: none;
+}
+.desrectionPostCat{
+	height: 82px;
+	padding: 2px;
+	overflow: hidden;
+	font-size: 16px;
+	color: #999999;
+}
+.datePostAndViewa{
+	width: 100%;
+	height: 25px;
+	font-size: 12px;
+	color: #CC9933;
+	border-top: 1px solid #999999;
+}
+.datePostCat, .viewsPostCat{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
