@@ -32,13 +32,10 @@
         <a class="nav-link itemNavLink" href="../Home.html">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link itemNavLink" href="#">Thiết Kế WebSite</a>
+        <a class="nav-link itemNavLink" href="#">Thiết Kế WebSite Và Ứng Dụng</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link itemNavLink" href="#">App Di Động</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link itemNavLink" href="#">Phần Mềm Máy Tính</a>
+        <a class="nav-link itemNavLink" href="#">Marketnig Digital</a>
       </li>
       <li class="nav-item">
         <a class="nav-link itemNavLink" href="#">Job OutSource</a>

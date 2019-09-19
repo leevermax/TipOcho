@@ -109,13 +109,13 @@
 .bodyHomeContentCol .itemLinkPartHome{
 	border-left: 3px solid #FF0000;
 	margin-left: 10px;
-	margin-top: 10px;
+	margin-top: 30px;
 	padding-left: 5px;
-	color: #FF6600;
-	-webkit-animation: my 50ms infinite;
-	-moz-animation: my 50ms infinite; 
-	-o-animation: my 100ms infinite; 
-	animation: my 50ms infinite;
+	font-weight: bold;
+	-webkit-animation: my 1150ms infinite;
+	-moz-animation: my 1110ms infinite; 
+	-o-animation: my 1000ms infinite; 
+	animation: my 1150ms infinite;
 }
 .bodyHomeContentCol .itemLinkPartHome:hover{
 	text-decoration: underline;
