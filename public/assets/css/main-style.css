@@ -81,11 +81,14 @@
 .topNavbarHome{
 	background-color: #FF6600!important;
 }
-.navbar .btnSearchHome{
+.btnSearchHome{
 	background-color: #FFFFFF!important;
 	margin: 1px auto!important;
+	font-size: 14px!important;
+	padding: 4px 5px!important;
+	font-weight: bold!important;
 }
-.navbar .btnSearchHome:hover{
+.btnSearchHome:hover{
 	background-color: #28a745!important;
     color: #FFFFFF;
     border-color: #FFFFFF;
@@ -96,55 +99,33 @@
 .navbar .itemLinkHome .itemNavLink:hover{
     color: #28a745!important;
 }
-
-/* Body Content Style */
-.bodyHomeContentCol, .fooderHomeSite{
+.searchRow{
+	min-width: 340px;
+	height: auto;
+	padding: 4px;
 	width: 100%;
-	margin: 5px auto;
+	align-items: right;
 	background-color: #FFFFFF;
-	border-radius: 5px;
-	padding-top: 15px;
-	padding-bottom: 10px;
+	overflow: auto;
+	border-bottom: 1px solid #CCCCCC;
 }
-.bodyHomeContentCol .itemLinkPartHome{
-	border-left: 3px solid #FF0000;
-	margin-left: 10px;
-	margin-top: 30px;
-	padding-left: 5px;
-	font-weight: bold;
-	-webkit-animation: my 1150ms infinite;
-	-moz-animation: my 1110ms infinite; 
-	-o-animation: my 1000ms infinite; 
-	animation: my 1150ms infinite;
+.searchItemsNav{
+	font-size: 12px!important;
+	padding: 2px 2px!important;
+	width: 250px!important;
+	margin-right: 5px!important;
 }
-.bodyHomeContentCol .itemLinkPartHome:hover{
-	text-decoration: underline;
-}
-.midFooterContent{
-	padding-left: 10px;
+.wrapFormSearch{
+	float: right;
 }
 
-/* Làm chữ nhấp nháy */
-@-webkit-keyframes my {
-	 0% { color: #990099; } 
-	 50% { color: #FF6600;  } 
-	 100% { color: #00FF00;  } 
- }
- @-moz-keyframes my { 
-	 0% { color: #990099;  } 
-	 50% { color: #FF6600;  }
-	 100% { color: #00FF00;  } 
- }
- @-o-keyframes my { 
-	 0% { color: #990099; } 
-	 50% { color: #FF6600; } 
-	 100% { color: #00FF00;  } 
- }
- @keyframes my { 
-	 0% { color: #FF6600;  }
-	 100% { color: #00FF00;  } 
- } 
-
+ /*Set fixed when scroll for row search*/    
+.fixedForSearchRow{
+	position: fixed;
+	top: 0px;
+	width: 99%;
+	z-index: 10000;
+}
 
 /* Fooder Style */
 .fooderHomeSite .custom-footer{
@@ -157,13 +138,124 @@
 .endPageCopyRight{
 	margin: 2px auto;
 	font-size: 12px;
-	color: #CCCCCC;
+	font-weight: bold;
+	color: #666666;
 }
 
-/*change silde content mobile vs pc*/ 
-.leftContentSildeHomelarge{
-	display: none;
+/*RIGHT SIDEBAR*/
+.titleSildeRight{
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	color: #FF0000;
+	margin-top: 5px;
+	padding: 2px;
+	font-size: 18px;
+	font-weight: bold;
+	border-bottom: 0.1px solid #FF0000;
+	cursor: pointer;
 }
+.fa-hand-point-right{
+	color: #FF0000;
+}
+.postNewListWrap{
+	width: 90%;
+	margin: 15px auto;
+}
+.postNewListWrap .postNewWrap{
+	width: 100%;
+	min-width: 150px;
+	margin-bottom: 5px;
+	border-bottom: 0.1px solid #FF6600;
+	margin-top: 5px!important;
+	height: 92px;
+}
+.postNewWrap:hover{
+	background-color: #DDDDDD;
+}
+.wrapImgNewPost{
+	width: 90px;
+	margin: auto;
+	float: left;
+}
+.imgNewPost{
+	width: 100%;
+	height: 90px;
+}
+.wrapTextItemPost{
+	width: calc(100% - 90px);
+	height: 90px;
+	float: left;
+}
+.titleNewPostItem{
+	height: 33px;
+	padding-left: 4px!important;
+	overflow: hidden;
+	text-overflow: ellipsis;
+
+}
+.titleNewPostItem .titleTextNewPostItem{
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 16px;
+	color: #FF6600;
+}
+.descrisNewPostItem{
+	padding-left: 4px!important;
+	color: #888888;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 14px;
+	height: 42px;
+}
+.titleNewPostItem .titleTextNewPostItem:hover{
+	color: #00FF00;
+	line-height: 14px;
+}
+.viewsPostHot{
+	width: 100%;
+	height: 13px;
+	font-size: 11px;
+	padding: 0px;
+	color: #CC9933;
+	border-top: 1px solid #999999;
+	text-align: center;
+	padding-left: 15px;
+}
+.eyesViewHotPost{
+	font-size: 11px;
+}
+
+/* Left sidebar*/
+.contentLeftSidebar{
+	width: 90%!important;
+	margin: 15px auto!important;
+}
+.contentLeftSidebar .hotContLeftSidebar{
+	color: #00CC00;
+	line-height: 14px;
+	margin-bottom: 15px;
+}
+
+/* scroll to top*/
+.goToTopAction{
+	position: fixed;
+	bottom: 15px;
+	right: 15px;
+	border: 0.5px;
+	font-size: 45px!important;
+	opacity: 0.4!important;
+	cursor: pointer;
+}
+.fa-chevron-up{	
+	font-size: 45px!important;
+	opacity: 0.4!important;
+}
+.goToTopAction:hover{
+	color: red;
+	opacity: 1!important;
+}
+
 /* configure responsive */
 @media screen and (min-width: 576px) 
 and (max-width: 768px){
@@ -185,6 +277,11 @@ and (max-width: 768px){
 	.bodyHomeContentCol{
 		width: 99%;
 		margin: 2px auto;
+	}
+
+	/*change silde content mobile vs pc*/ 
+	#contentLeftSidebarAcSlide{
+		display: none;
 	}
 }	
 @media screen and (min-width: 769px) 
@@ -208,11 +305,10 @@ and (max-width: 1200px){
 		width: 99%;
 		margin: 5px auto;
 	}
-	.leftContentSildeHomelarge{
+
+	/*change silde content mobile vs pc*/ 
+	#contentLeftSidebarAcSlide{
 		display: block;
-	}
-	.leftContentSildeHomeMobile{
-		display: none;
 	}
 }
 @media screen and (min-width: 1200px){
@@ -235,11 +331,10 @@ and (max-width: 1200px){
 		width: 99%;
 		margin: 5px auto;
 	}
-	.leftContentSildeHomelarge{
+
+	/*change silde content mobile vs pc*/ 
+	#contentLeftSidebarAcSlide{
 		display: block;
-	}
-	.leftContentSildeHomeMobile{
-		display: none;
 	}
 }
 }

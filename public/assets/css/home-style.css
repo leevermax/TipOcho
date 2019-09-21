@@ -1,67 +1,6 @@
-.titleSildeRight{
-	width: 90%;
-	margin: auto;
-	text-align: center;
-	color: #FF0000;
-	margin-top: 5px;
-	padding: 2px;
-	font-size: 18px;
-	font-weight: bold;
-	border-bottom: 0.1px solid #FF0000;
-}
-.fa-hand-point-right{
-	color: #FF0000;
-}
-.postNewListWrap{
-	width: 90%;
-	margin: 15px auto;
-}
-.postNewListWrap .postNewWrap{
-	width: 100%;
-	margin-bottom: 5px;
-	border-bottom: 0.1px solid #FF6600;
-	margin-top: 5px!important;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	max-height: 100px;
-}
-.postNewWrap:hover{
-	background-color: #DDDDDD;
-}
-.wrapImgNewPost{
-	width: 100%;
-	margin: auto;
-}
-.imgNewPost{
-	width: 100%;
-	max-height: 100px;
-	min-height: 55px;
-}
-.titleNewPostItem{
-	height: 50px;
-	padding-left: 4px!important;
-	overflow: hidden;
-	text-overflow: ellipsis;
-
-}
-.titleNewPostItem .titleTextNewPostItem{
-	font-size: 16px;
-	font-weight: bold;
-	color: #FF6600;
-}
-.titleNewPostItem .titleTextNewPostItem:hover{
-	color: #00FF00;
-	text-decoration: underline;
-}
-.descrisNewPostItem{
-	padding-left: 4px!important;
-	color: #BBBBBB;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	font-size: 14px;
-}
+/*HOME cONTENT*/
 .contentHomeCenter1{
-	background-image: url("https://media.giphy.com/media/omMSIVCOXyzcI/giphy.gif");
+	background-image: url("https://media2.giphy.com/media/McEAEFR0Fnsgo/source.gif");
     background-position:center;
 	margin-top: 25px!important;
 	border-bottom: 5px solid #FF6600;
@@ -82,6 +21,132 @@
 	-o-animation: my 1110ms infinite; 
 	animation: my 1150ms infinite;
 }
+
+/* Body Content Style */
+.bodyHomeContentCol, .fooderHomeSite{
+	width: 99%;
+	margin: 5px auto!important;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	padding-top: 15px;
+	padding-bottom: 10px;
+}
+.bodyHomeContentCol .itemLinkPartHome{
+	border-left: 3px solid #FF0000;
+	cursor: pointer;
+	margin-left: 10px;
+	margin-top: 30px;
+	padding-left: 5px;
+	font-weight: bold;
+	-webkit-animation: my 1150ms infinite;
+	-moz-animation: my 1110ms infinite; 
+	-o-animation: my 1000ms infinite; 
+	animation: my 1150ms infinite;
+}
+.bodyHomeContentCol .itemLinkPartHome:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+.midFooterContent{
+	padding-left: 10px;
+}
+
+/* Làm chữ nhấp nháy */
+@-webkit-keyframes my {
+	 0% { color: #990099; } 
+	 50% { color: #FF6600;  } 
+	 100% { color: #00FF00;  } 
+ }
+ @-moz-keyframes my { 
+	 0% { color: #990099;  } 
+	 50% { color: #FF6600;  }
+	 100% { color: #00FF00;  } 
+ }
+ @-o-keyframes my { 
+	 0% { color: #990099; } 
+	 50% { color: #FF6600; } 
+	 100% { color: #00FF00;  } 
+ }
+ @keyframes my { 
+	 0% { color: #FF6600;  }
+	 100% { color: #00FF00;  } 
+ } 
+
+/* Content Home page 2*/
 .contentHomeCenter2{
-	
+	width: 100%;
+	margin-top: 25px!important;
+	border-bottom: 5px solid #FF6600;
+}
+.titleItemsPageInHome{
+	width: auto;
+	color: #FF3300;
+	font-family: Brush Script MT, Brush Script Std;
+	padding: 2px 4px;
+	border-bottom: 1px solid #FF6633;
+}
+.iconTitlePartPage{
+	font-size: 18px;
+	margin-top: 8px;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #00FF00!important;
+}
+
+
+/* 1 What Do In Home Page*/
+.contentTickItems{
+	width: 95%;
+	margin: 15px auto;
+}
+.tickItemWhatDo1{
+	color: #FF6600;
+}
+
+
+/* 6 Team Infor*/
+.wrapProfileTeams{
+	width: 250px;
+	border: 1px solid #BBBBBB;
+	margin: 5px auto;
+	background-color: #CCFF99;
+	color: #0000EE;
+	font-size: 14px;
+}
+.imgProfileTeamInfor{
+	width: 85%;
+	height: 210px;
+	border-radius: 50%;
+}
+.teaminforNickName{
+	font-weight: bold;
+	border-top: 1px solid #BBBBBB;
+	border-bottom: 1px solid #BBBBBB;
+}
+.inforTeamItems{
+	border-top: 1px solid #BBBBBB;
+	border-bottom: 1px solid #BBBBBB;
+	overflow: auto;
+}
+.inforTeamItemsLeft{
+	text-align: left;
+	width: 30%;
+	float: left;
+	color: #777777;
+}
+.inforTeamItemsRight{
+	float: left;
+	width: 70%;
+	text-align: left;
+}
+.icon-inforTeamProfile{
+	margin-top: 0px!important;
+	margin-right: 4px!important;
+}
+
+/*Responsive*/
+@media screen and (max-width: 575px) {
+	.lisTopTitleItemsRes{
+		text-align: center;
+	}
 }

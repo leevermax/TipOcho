@@ -41,7 +41,13 @@
         <a class="nav-link itemNavLink" href="#">Job OutSource</a>
       </li>
       <li class="nav-item">
+        <a class="nav-link itemNavLink" href="#">Bảng Giá</a>
+      </li>
+      <li class="nav-item">
         <a class="nav-link itemNavLink" href="#">Blog</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link itemNavLink" href="#">MMO</a>
       </li>
       <li class="nav-item">
         <a class="nav-link itemNavLink" href="#">Team Infor</a>
@@ -49,10 +55,15 @@
       <li class="nav-item">
         <a class="nav-link itemNavLink" href="#">Liên Hệ</a>
       </li>               
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0 btnSearchHome" type="submit">Search</button>
-    </form>
+    </ul>    
   </div>
 </nav>
+<div class="searchRow" id="rowSearchMain">
+  <div class="wrapFormSearch">
+    <form class="form-inline formSearchNav">
+      <input class="form-control searchItemsNav" size="30" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success btnSearchHome" type="submit">Search</button>
+    </form>
+  </div>
+</div>
+<div class="clear"></div>

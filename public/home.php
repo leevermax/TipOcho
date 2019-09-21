@@ -25,6 +25,7 @@
 
     <!--   jquery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="assets/js/jquery-3.4.1.js"></script>
 
 </head>
 
@@ -38,9 +39,20 @@
         <div class="row bodyHomeSite">
             <div class="col-12 col-md-2 deletePadding colAddMarginTop leftContentSildeHomelarge">
                 <div class="row bodyHomeContentCol">
-                    <div class="titleSildeRight" align="center">
+                    <div class="titleSildeRight" id="titleSildeLeft" align="center">
                         <i class="fas fa-hand-point-right"></i>
-                        <span>Nội Dúng Nổi Bật</span>
+                        <span id="titleSildeRightAcSlide">Nội Dúng Nổi Bật</span>
+                    </div>
+                    <div class="contentLeftSidebar" id="contentLeftSidebarAcSlide">
+                        <a href="" class="hotContLeftSidebar">
+                            <h5><i class="fas fa-highlighter"></i> Hot hshs svhjas vdz zb  dbd</h5>
+                        </a>
+                        <a href="" class="hotContLeftSidebar">
+                            <h5><i class="fas fa-highlighter"></i> Hot hshs svhjas vdz zb  dbd</h5>
+                        </a>
+                        <a href="" class="hotContLeftSidebar">
+                            <h5><i class="fas fa-highlighter"></i> Hot hshs svhjas vdz zb  dbd</h5>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -48,24 +60,253 @@
             <div class="col-12 col-md-7 deletePadding colAddMarginTop">
                 <div class="row bodyHomeContentCol">
                     <div class="row contentHomeCenter1">
-                        <div class="col-12 col-sm-6 deletePadding">
-                            <h5 class="itemLinkPartHome">Chúng Tôi Làm Những Gì</h5>   
-                            <h5 class="itemLinkPartHome">Quy Trình Thực Hiện Dự Án</h5>
-                            <h5 class="itemLinkPartHome">Cam Kết Của Chúng Tôi</h5>
+                        <div class="col-12 col-sm-6 deletePadding lisTopTitleItemsRes">
+                            <h5 class="itemLinkPartHome whatWeDo1">Chúng Tôi Làm Những Gì</h5>   
+                            <h5 class="itemLinkPartHome processWork2">Quy Trình Thực Hiện Dự Án</h5>
+                            <h5 class="itemLinkPartHome promiseOfWe3">Ửu Điểm Của Chúng Tôi</h5>
                         </div>
-                        <div class="col-12 col-sm-6 deletePadding">
-                            <h5 class="itemLinkPartHome">Nhận Các Dự Án OutSources</h5>
-                            <h5 class="itemLinkPartHome">Ưu Đãi Và Quà Tặng</h5>
-                            <h5 class="itemLinkPartHome">Đội Ngũ Của Tôi</h5>                      
+                        <div class="col-12 col-sm-6 deletePadding lisTopTitleItemsRes">
+                            <h5 class="itemLinkPartHome outSoutJob4">Nhận Các Dự Án OutSources</h5>
+                            <h5 class="itemLinkPartHome giftAndFree5">Ưu Đãi Và Quà Tặng</h5>
+                            <h5 class="itemLinkPartHome teamInfor6">Đội Ngũ Của Tôi</h5>                      
                         </div> 
                         <div class="lableFooterTop">
                             <h3 class="lableFooterPartHome">Đồng Hành Cùng Phát Triển Doanh Nghiệp Của Bạn.</h3>
                             <h4 class="lableFooterPartHome">Phát Triển Các Sản Phẩm Công Nghệ Với Đa Nền Tảng: PHP, Java, .Net, Mobile...</h4>
                         </div>     
                     </div>
-                    <div class="contentHomeCenter2">
-                        
-                    </div>             
+                    <div class="contentHomeCenter2" id="whatWeDo1">
+                        <div class="row titleItemsPageInHome">
+                            <i class="fas fa-hammer iconTitlePartPage"></i>
+                            <h3> Nhận Các Dự Án:</h3>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-sm-6 deletePadding lisTopTitleItemsRes">
+                                <div class="contentTickItems">
+                                    <h5 class="titleTickItems">
+                                        <i class="far fa-check-circle tickItemWhatDo1"></i>
+                                        Thiết Kế Website:
+                                    </h5>   
+                                    <p>
+                                        - Nhận thiết kế website các loại(website doanh nghiệp, bán hang, dịch vụ, tin tức...). Chuyên nghiệp, đầy đủ chức năng, giao diện phong phú... Đáp ứng mọi yêu cầu khách hàng.</br>
+                                        - Nhận thiết kế website Workpress full tính năng và flugin siêu tốc.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 deletePadding lisTopTitleItemsRes">
+                                <div class="contentTickItems">
+                                    <h5 class="titleTickItems">
+                                        <i class="far fa-check-circle tickItemWhatDo1"></i>
+                                        Thiết Kế Ứng Dụng Di Động:
+                                    </h5>   
+                                    <p>
+                                        - Nhận thiết kết Ứng Dụng Di Động các nền tảng Android, Ios cho doanh nghiệp bán hàng, shop online, ứng dụng theo yêu cầu... Đầy đủ tính năng,
+                                        giao diện đẹp, hỗ trợ nghiệp vụ theo yêu cầu khách hàng.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 deletePadding lisTopTitleItemsRes">
+                                <div class="contentTickItems">
+                                    <h5 class="titleTickItems">
+                                        <i class="far fa-check-circle tickItemWhatDo1"></i>
+                                        Xây Dựng Ứng Dụng Desktop:
+                                    </h5>   
+                                    <p>
+                                        - Nhận Xây Dựng Ứng Dụng Desktop các phần mềm quản lý cửa hàng, các shop.
+                                        Kết nối quản trị dữ liệu tương tác ứng dụng di động và website. Xây dựng phần mềm theo yêu cầu khách hàng....
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 deletePadding lisTopTitleItemsRes">
+                                <div class="contentTickItems">
+                                    <h5 class="titleTickItems">
+                                        <i class="far fa-check-circle tickItemWhatDo1"></i>
+                                        Hỗ Trợ Marketing Digital:
+                                    </h5>   
+                                    <p>
+                                        - Hỗ trợ và nhận các dịch vụ về marketing Digital: Chạy Ads Google - Facebook, nhận các dịch vụ tăng tương tác, xây dựng nội dung, quản trị các trang mạng xã hội và webiste hỗ trợ sell. 
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 deletePadding lisTopTitleItemsRes">
+                                <div class="contentTickItems">
+                                    <h5 class="titleTickItems">
+                                        <i class="far fa-check-circle tickItemWhatDo1"></i>
+                                        Dịch Vụ Hosting Và Tên Miền:
+                                    </h5>   
+                                    <p>
+                                        - Cho thuê Hosting và tên miền giá rẻ, hỗ trỡ setup vps, chuyển đổi trỏ tên miền tên miềm...
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 deletePadding lisTopTitleItemsRes">
+                                <div class="contentTickItems">
+                                    <h5 class="titleTickItems">
+                                        <i class="far fa-check-circle tickItemWhatDo1"></i>
+                                        Hỗ Trợ Và Nâng Cấp:
+                                    </h5>   
+                                    <p>
+                                        - Hỗ trợ setup Và Submit website. Nhập nâng cấp, chỉnh sữa và backup website và dữ liệu....
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>     
+                    <div class="contentHomeCenter2" id="processWork2">
+                        <div class="row titleItemsPageInHome">
+                            <i class="fas fa-recycle iconTitlePartPage"></i>
+                            <h3> Quy Trình Thực Hiên Dự Án:</h3>
+                        </div>
+                        <div class="col-12 col-sm-6 deletePadding lisTopTitleItemsRes">
+                            à
+                        </div>
+                    </div>        
+                    <div class="contentHomeCenter2" id="promiseOfWe3">
+                        <div class="row titleItemsPageInHome">
+                            <i class="fas fa-thumbs-up iconTitlePartPage"></i>
+                            <h3> Những Ưu Điểm Của Tip-Ocho Studio:</h3>
+                        </div>
+                        <div class="col-12 col-sm-6 deletePadding lisTopTitleItemsRes">
+                            <h5 class="itemLinkPartHome">Chúng Tôi Làm Những Gì</h5>   
+                            <h5 class="itemLinkPartHome">Quy Trình Thực Hiện Dự Án</h5>
+                            <h5 class="itemLinkPartHome">Cam Kết Của Chúng Tôi</h5>
+                        </div>
+                    </div>     
+                    <div class="contentHomeCenter2" id="outSoutJob4">
+                        <div class="row titleItemsPageInHome">
+                            <i class="fas fa-handshake iconTitlePartPage"></i>
+                            <h3> Nhận Các Dự Án OutSources:</h3>
+                        </div>
+                        <div class="col-12 col-sm-6 deletePadding lisTopTitleItemsRes">
+                            <h5 class="itemLinkPartHome">Chúng Tôi Làm Những Gì</h5>   
+                            <h5 class="itemLinkPartHome">Quy Trình Thực Hiện Dự Án</h5>
+                            <h5 class="itemLinkPartHome">Cam Kết Của Chúng Tôi</h5>
+                        </div>
+                    </div>     
+                    <div class="contentHomeCenter2" id="giftAndFree5">
+                        <div class="row titleItemsPageInHome">
+                            <i class="fas fa-gifts iconTitlePartPage"></i>
+                            <h3> Những Ưu Đãi Và Miễn Phí:</h3>
+                        </div>
+                        <div class="col-12 col-sm-6 deletePadding lisTopTitleItemsRes">
+                            <h5 class="itemLinkPartHome">Chúng Tôi Làm Những Gì</h5>   
+                            <h5 class="itemLinkPartHome">Quy Trình Thực Hiện Dự Án</h5>
+                            <h5 class="itemLinkPartHome">Cam Kết Của Chúng Tôi</h5>
+                        </div>
+                    </div>     
+                    <div class="contentHomeCenter2" id="teamInfor6">
+                        <div class="row titleItemsPageInHome">
+                            <i class="fas fa-users iconTitlePartPage"></i>
+                            <h3> Thông Tin Đội Ngũ:</h3>
+                        </div>
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                  <img src="images/carousel-team/2.jpg" height="300" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="images/carousel-team/1.jpg" height="300" class="d-block w-100" alt="...">
+                                </div>
+                                <div class="carousel-item">
+                                  <img src="images/carousel-team/3.jpg" height="300" class="d-block w-100" alt="...">
+                                </div>
+                            </div>
+                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                        <div class="row">
+                            <div class="col-12 col-sm-6 deletePadding lisTopTitleItemsRes">
+                                <div class="wrapProfileTeams" align="center">
+                                    <img class="imgProfileTeamInfor" src="images/basic/logo-title.gif" alt="TipOcho">
+                                    <div class="teaminforNickName">
+                                        <a href="">TIP Ocho</a>
+                                    </div>
+                                    <div class="inforTeamItems">
+                                        <div class="inforTeamItemsLeft">
+                                            Name:
+                                        </div>
+                                        <div class="inforTeamItemsRight">
+                                            Doãn Bá Thành
+                                        </div>
+                                    </div>
+                                    <div class="inforTeamItems">
+                                        <div class="inforTeamItemsLeft">
+                                            Position:
+                                        </div>
+                                        <div class="inforTeamItemsRight">
+                                            Founder, Developer
+                                        </div>
+                                    </div>
+                                    <div class="inforTeamItems">
+                                        <div class="inforTeamItemsLeft">
+                                            Phone:
+                                        </div>
+                                        <div class="inforTeamItemsRight">
+                                            033-622-6638
+                                        </div>
+                                    </div>
+                                    <div class="inforTeamItems">
+                                        <div class="inforTeamItemsLeft">
+                                            More:
+                                        </div>
+                                        <div class="inforTeamItemsRight">
+                                            <a href="http://fb.com/TipOcho" target="_blank"> <img class="icon-inforTeamProfile" src="images/icon/fb.png" alt="TipOcho Studio" width="18"></a>
+                                            <a href="http://youtube.com/TipOcho" target="_blank"> <img class="icon-inforTeamProfile" src="images/icon/youtube.png" alt="TipOcho Studio"
+                                            height="22" width="18"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-sm-6 deletePadding lisTopTitleItemsRes">
+                                <div class="wrapProfileTeams" align="center">
+                                    <img class="imgProfileTeamInfor" src="images/basic/phongImgProfile.jpg" alt="TipOcho">
+                                    <div class="teaminforNickName">
+                                        <a href="https://www.facebook.com/Park.Ji.Tae" target="_blank">Tae NoEmotion</a>
+                                    </div>
+                                    <div class="inforTeamItems">
+                                        <div class="inforTeamItemsLeft">
+                                            Name:
+                                        </div>
+                                        <div class="inforTeamItemsRight">
+                                            Trần Lê Tất Phong
+                                        </div>
+                                    </div>
+                                    <div class="inforTeamItems">
+                                        <div class="inforTeamItemsLeft">
+                                            Position:
+                                        </div>
+                                        <div class="inforTeamItemsRight">
+                                            Desiger, WP-Developer
+                                        </div>
+                                    </div>
+                                    <div class="inforTeamItems">
+                                        <div class="inforTeamItemsLeft">
+                                            Phone:
+                                        </div>
+                                        <div class="inforTeamItemsRight">
+                                            033-622-6638
+                                        </div>
+                                    </div>
+                                    <div class="inforTeamItems">
+                                        <div class="inforTeamItemsLeft">
+                                            More:
+                                        </div>
+                                        <div class="inforTeamItemsRight">
+                                            <a href="https://www.facebook.com/Park.Ji.Tae" target="_blank"> <img class="icon-inforTeamProfile" src="images/icon/fb.png" alt="TipOcho Studio" width="18"></a>
+                                            <a href="http://youtube.com/TipOcho" target="_blank"> <img class="icon-inforTeamProfile" src="images/icon/youtube.png" alt="TipOcho Studio"
+                                            height="22" width="18"></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                                                
+                    </div>          
                 </div>                               
             </div>
             <div class="clear"></div>
@@ -73,18 +314,18 @@
                 <div class="row bodyHomeContentCol">
                     <div class="titleSildeRight" align="center">
                         <i class="fas fa-hand-point-right"></i>
-                        <span>Bài Viết Mới</span>
+                        <span>Bài Viết Hot</span>
                     </div>
                     <div class="postNewListWrap">
                         <div class="row postNewWrap">
-                            <div class="col-4 deletePadding">
-                                <div class="wrapImgNewPost" align="left">
-                                    <img src="images/post-img/cl.jpg" class="rounded imgNewPost">
-                                </div>
+                            <div class="wrapImgNewPost" align="left">
+                                <img src="images/post-img/cl.jpg" class="rounded imgNewPost">
                             </div>
-                            <div class="col-8 deletePadding">
+                            <div class="wrapTextItemPost">
                                 <div class="row titleNewPostItem">
-                                    <a href="" class="titleTextNewPostItem">email me</a>
+                                    <a href="" class="titleTextNewPostItem">
+                                        <span>email me aaaaaaa aaaaa aaaa</span>
+                                    </a>
                                 </div>
                                 <div class="row descrisNewPostItem">
                                     fdnnnnnnnnnnnnnsb
@@ -92,26 +333,12 @@
                                     gfmmvghfb sdhrhrddhyr
                                     gmfjv
                                 </div>
-                            </div>
-                        </div>
-                         <div class="row postNewWrap">
-                            <div class="col-4 deletePadding">
-                                <div class="wrapImgNewPost" align="left">
-                                    <img src="images/post-img/2569475.jpg" class="rounded imgNewPost">
-                                </div>
-                            </div>
-                            <div class="col-8 deletePadding">
-                                <div class="row titleNewPostItem">
-                                    <a href="" class="titleTextNewPostItem">email me</a>
-                                </div>
-                                <div class="row descrisNewPostItem">
-                                    fdnnnnnnnnnnnnnsb
-                                    tghkvglmgjd fdjjdj  dfjfhđhfcfghdn ndxsdg cdjn
-                                    gfmmvghfb sdhrhrddhyr
-                                    gmfjv
+                                <div class="viewsPostHot" align="center">
+                                    <i class="fas fa-eye eyesViewHotPost"></i> 2222
                                 </div>
                             </div>
                         </div>
+                         
                     </div>
                 </div>               
             </div>
@@ -123,9 +350,8 @@
         ?>
     </section>
 
-    
     <!--   jquery -->
-    <script src="assets/js/main-js.js" type="text/javascript" charset="utf-8"></script>
+    <script src="assets/js/main-js.js"></script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

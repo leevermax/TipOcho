@@ -1,4 +1,7 @@
 <!--FACEBOOK FANPAGE-->
+<div class="goToTopAction" id="goToTopAction">
+    <i class="fas fa-chevron-up"></i>
+</div>
 <div class="row fooderHomeSite">
     <div class="col-12 col-md-3 deletePadding" align="center">
        <a href=""> <img class="logo-footer " src="images/basic/logo-title.gif" alt="TipOcho Studio"></a>
