@@ -32,10 +32,10 @@
         <a class="nav-link itemNavLink" href="../Home.html">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link itemNavLink" href="#">Thiết Kế WebSite Và Ứng Dụng</a>
+        <a class="nav-link itemNavLink" href="#">Thiết Kế WebSite - Ứng Dụng</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link itemNavLink" href="#">Marketnig Digital</a>
+        <a class="nav-link itemNavLink" href="#">Marketig Digital</a>
       </li>
       <li class="nav-item">
         <a class="nav-link itemNavLink" href="#">Job OutSource</a>
@@ -48,6 +48,12 @@
       </li>
       <li class="nav-item">
         <a class="nav-link itemNavLink" href="#">MMO</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link itemNavLink" href="#">Dự Án Update</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link itemNavLink" href="#">Đối Tác</a>
       </li>
       <li class="nav-item">
         <a class="nav-link itemNavLink" href="#">Team Infor</a>

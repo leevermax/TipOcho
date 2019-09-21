@@ -23,9 +23,9 @@
     <div class="col-12 col-md-3 deletePadding">
         <div class="custom-footer" align="center">
             <h6>FANPAGE FACEBOOK</h6>
-            <div id="facebookBoxFooder" class="fb-page" data-href="https://www.facebook.com/GirlVideos.TIP/" data-tabs="timeline" data-width="" data-height="250px" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
-                <blockquote cite="https://www.facebook.com/GirlVideos.TIP/" class="fb-xfbml-parse-ignore">
-                    <a href="https://www.facebook.com/GirlVideos.TIP/">TipOcho Studio</a>
+            <div id="facebookBoxFooder" class="fb-page" data-href="https://www.facebook.com/TipOcho.Studio/" data-tabs="timeline" data-width="" data-height="250px" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true">
+                <blockquote cite="https://www.facebook.com/TipOcho.Studio/" class="fb-xfbml-parse-ignore">
+                    <a href="https://www.facebook.com/TipOcho.Studio/">TipOcho Studio</a>
                 </blockquote>
 
             </div>

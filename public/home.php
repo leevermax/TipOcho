@@ -75,10 +75,11 @@
                             <h4 class="lableFooterPartHome">Phát Triển Các Sản Phẩm Công Nghệ Với Đa Nền Tảng: PHP, Java, .Net, Mobile...</h4>
                         </div>     
                     </div>
+
+                    <!-- 1. Làm những gì -->
                     <div class="contentHomeCenter2" id="whatWeDo1">
                         <div class="row titleItemsPageInHome">
-                            <i class="fas fa-hammer iconTitlePartPage"></i>
-                            <h3> Nhận Các Dự Án:</h3>
+                            <h3><i class="fas fa-hammer iconTitlePartPage"></i>Nhận Các Dự Án:</h3>
                         </div>
                         <div class="row">
                             <div class="col-12 col-sm-6 deletePadding lisTopTitleItemsRes">
@@ -151,54 +152,78 @@
                                 </div>
                             </div>
                         </div>
-                    </div>     
+                    </div> 
+
+                    <!-- 2. Quy Trình Thực hiện dự án -->    
                     <div class="contentHomeCenter2" id="processWork2">
                         <div class="row titleItemsPageInHome">
-                            <i class="fas fa-recycle iconTitlePartPage"></i>
-                            <h3> Quy Trình Thực Hiên Dự Án:</h3>
+                            <h3><i class="fas fa-recycle iconTitlePartPage"></i>Quy Trình Thực Hiên Dự Án:</h3>
                         </div>
                         <div class="col-12 col-sm-6 deletePadding lisTopTitleItemsRes">
                             à
                         </div>
-                    </div>        
+                    </div>       
+
+                    <!-- 3. Những ưu điểm của TipOcho --> 
                     <div class="contentHomeCenter2" id="promiseOfWe3">
-                        <div class="row titleItemsPageInHome">
-                            <i class="fas fa-thumbs-up iconTitlePartPage"></i>
-                            <h3> Những Ưu Điểm Của Tip-Ocho Studio:</h3>
+                        <div class="row titleItemsPageInHome">                            
+                            <h3><i class="fas fa-thumbs-up iconTitlePartPage"></i>Những Ưu Điểm Của TipOcho Studio:</h3>
                         </div>
-                        <div class="col-12 col-sm-6 deletePadding lisTopTitleItemsRes">
-                            <h5 class="itemLinkPartHome">Chúng Tôi Làm Những Gì</h5>   
-                            <h5 class="itemLinkPartHome">Quy Trình Thực Hiện Dự Án</h5>
-                            <h5 class="itemLinkPartHome">Cam Kết Của Chúng Tôi</h5>
+                        <div class="row textUuDiemTipOcho">
+                            <h5><i class="fas fa-thumbtack pinOfUuDiem"></i> Làm việc chuyên nghiệp, uy tín - Lấy sự hài lòng của khách hàng làm trọng tâm.</h5>
+                            <h5><i class="fas fa-thumbtack pinOfUuDiem"></i> Mức giá tốt nhất đáp ứng mọi đối tượng khách hàng.</h5>
+                            <h5><i class="fas fa-thumbtack pinOfUuDiem"></i> Đảm bảo hoàn thành dự án một cách nhanh chóng nhất - chất lượng tốt nhất.</h5>
+                            <h5><i class="fas fa-thumbtack pinOfUuDiem"></i> Hỗ trợ giúp khách hàng theo sát dự án ở tường công đoạn.</h5>
+                            <h5><i class="fas fa-thumbtack pinOfUuDiem"></i> Luôn lắng nghe, xác nhận, trao đổi cùng khách hàng trong quá trình thực hiện dự án.</h5>
+                            <h5><i class="fas fa-thumbtack pinOfUuDiem"></i> Luôn cập nhật tiến độ với khách hàng đúng với tiến độ ban đầu đề ra.</h5>
+                            <h5><i class="fas fa-thumbtack pinOfUuDiem"></i> Bàn giao dự án đầy đủ tài liều và sourceCode, hướng dẫn chi tiết đến khi khách hàng làm được. Hỗ trợ khách hàng review souceCode nếu có yêu cầu.</h5>
+                            <h5><i class="fas fa-thumbtack pinOfUuDiem"></i> Hỗ trợ bảo trì trọn đời sau bàn giao: Hỗ trợ miễn phí khi gặp sự cố kỹ thuật, backup dữ liệu...</h5>
+                            <h5><i class="fas fa-thumbtack pinOfUuDiem"></i> Nhận chỉnh sữa, nâng cấp, cập nhật tính năng mới với mức giá ưu đãi cho khách hàng cũ.</h5>
+                            <h5><i class="fas fa-thumbtack pinOfUuDiem"></i> Tư vấn hỗ trợ markting-seo, xây dưng nội dụng website và mạng xã hội.</h5>
+                            <p class="textUuDiemP">
+                                - Với đội ngũ non trẻ chúng tôi còn thiếu lòng tin từ quý khách hàng nhưng chúng tôi luôn mong muốn được làm việc tạo ra sản phẩm tạo ra thương hiệu mới -> xây dựng lòng tin bắt đầu từ nơi nhỏ bé nhất.</br>
+                                - Chính vị sự non trẻ đó chúng tối luôn làm hết mình trong mọi dự án.</br>
+                                - Chính sự non trẻ nên mức giá của chúng tôi là tốt nhất nhằm ưu tiên tìm kiếm khách hàng.</br>
+                                - Sảm phẩm công nghệ thường cần được hỗ trợ trọn đời và chung tồi biết điều đó -> mỗi dự án ngoại trừ team sẽ có cá nhân chịu trách nhiệm trọn đời với dự án. Đảm bảo việc bảo trì, kỹ thuật và nâng cấp đối với sản phẩm là không xảy ra vấn đề.
+                            </p>
                         </div>
                     </div>     
+
+                    <!-- 4. Nhận làm outsource -->
                     <div class="contentHomeCenter2" id="outSoutJob4">
                         <div class="row titleItemsPageInHome">
-                            <i class="fas fa-handshake iconTitlePartPage"></i>
-                            <h3> Nhận Các Dự Án OutSources:</h3>
+                            <h3><i class="fas fa-handshake iconTitlePartPage"></i>Nhận Các Dự Án OutSources:</h3>
                         </div>
-                        <div class="col-12 col-sm-6 deletePadding lisTopTitleItemsRes">
-                            <h5 class="itemLinkPartHome">Chúng Tôi Làm Những Gì</h5>   
-                            <h5 class="itemLinkPartHome">Quy Trình Thực Hiện Dự Án</h5>
-                            <h5 class="itemLinkPartHome">Cam Kết Của Chúng Tôi</h5>
+                        <div class="row">
+                            <div class="col-12 col-sm-6 deletePadding lisTopTitleItemsRes">
+                                ndf
+                            </div>
+                            <div class="col-12 col-sm-6 deletePadding lisTopTitleItemsRes">
+                                <img src="https://thumbs.gfycat.com/OptimalNegligibleAmericanbadger-small.gif" 
+                                width="100%">
+                            </div>
                         </div>
                     </div>     
+
+                    <!-- 5. Ưu đãi Và miễn phí -->
                     <div class="contentHomeCenter2" id="giftAndFree5">
                         <div class="row titleItemsPageInHome">
-                            <i class="fas fa-gifts iconTitlePartPage"></i>
-                            <h3> Những Ưu Đãi Và Miễn Phí:</h3>
+                            <h3><i class="fas fa-gifts iconTitlePartPage"></i>Những Ưu Đãi Và Miễn Phí:</h3>
                         </div>
                         <div class="col-12 col-sm-6 deletePadding lisTopTitleItemsRes">
                             <h5 class="itemLinkPartHome">Chúng Tôi Làm Những Gì</h5>   
                             <h5 class="itemLinkPartHome">Quy Trình Thực Hiện Dự Án</h5>
                             <h5 class="itemLinkPartHome">Cam Kết Của Chúng Tôi</h5>
                         </div>
-                    </div>     
+                    </div>   
+
+                    <!-- 6. Team Infor -->  
                     <div class="contentHomeCenter2" id="teamInfor6">
                         <div class="row titleItemsPageInHome">
-                            <i class="fas fa-users iconTitlePartPage"></i>
-                            <h3> Thông Tin Đội Ngũ:</h3>
+                            <h3><i class="fas fa-users iconTitlePartPage"></i>Thông Tin Đội Ngũ:</h3>
                         </div>
+
+                        <!-- Carousel Team Infor -->
                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -220,88 +245,178 @@
                                 <span class="sr-only">Next</span>
                             </a>
                         </div>
+
+                        <!-- Produce team  -->
+                        <div class="row produceTeamInfor">
+                            <p>
+                                - Đội ngủ team chúng tôi bao gồm thanh viên hoạt động chính thức và các thành viên freelancer cung ứng theo từng dự án. Đội ngũ đầy đủ bộ phận từ thiết kế, coding, test, kỹ thuật, hỗ trợ viên, đội ngũ kỹ thuật marketing - Sell... Đội ngũ gồm nhiều nhân viên giỏi có kinh nghiệm làm việc và hiện đang làm cho nhiều công ty lớn trong nước.</br>
+                                - Đội ngủ team trẻ, tích cực năng động, có tâm huyết... Team đang cố găng làm tốt để phát triển đi vào hoạt động chính thức.
+                            </p>
+                        </div>
+
+                        <!-- Card Member Team -->
                         <div class="row">
-                            <div class="col-12 col-sm-6 deletePadding lisTopTitleItemsRes">
-                                <div class="wrapProfileTeams" align="center">
-                                    <img class="imgProfileTeamInfor" src="images/basic/logo-title.gif" alt="TipOcho">
-                                    <div class="teaminforNickName">
-                                        <a href="">TIP Ocho</a>
+                            <div class="row wrapMainMemberTeam">
+                                <i class="fas fa-paper-plane"></i><span>Thành Viên Tiêu Biểu:</span>
+                            </div>
+                            <div class="clear"></div>
+                            <div class="wrapProfileTeams" align="center">
+                                <img class="imgProfileTeamInfor" src="images/basic/logo-title.gif" alt="TipOcho">
+                                <div class="teaminforNickName">
+                                    <a href="">TIP Ocho</a>
+                                </div>
+                                <div class="inforTeamItems">
+                                    <div class="inforTeamItemsLeft">
+                                        Name:
                                     </div>
-                                    <div class="inforTeamItems">
-                                        <div class="inforTeamItemsLeft">
-                                            Name:
-                                        </div>
-                                        <div class="inforTeamItemsRight">
-                                            Doãn Bá Thành
-                                        </div>
+                                    <div class="inforTeamItemsRight">
+                                        Doãn Bá Thành
                                     </div>
-                                    <div class="inforTeamItems">
-                                        <div class="inforTeamItemsLeft">
-                                            Position:
-                                        </div>
-                                        <div class="inforTeamItemsRight">
-                                            Founder, Developer
-                                        </div>
+                                </div>
+                                <div class="inforTeamItems">
+                                    <div class="inforTeamItemsLeft">
+                                        Position:
                                     </div>
-                                    <div class="inforTeamItems">
-                                        <div class="inforTeamItemsLeft">
-                                            Phone:
-                                        </div>
-                                        <div class="inforTeamItemsRight">
-                                            033-622-6638
-                                        </div>
+                                    <div class="inforTeamItemsRight">
+                                        Founder, Developer
                                     </div>
-                                    <div class="inforTeamItems">
-                                        <div class="inforTeamItemsLeft">
-                                            More:
-                                        </div>
-                                        <div class="inforTeamItemsRight">
-                                            <a href="http://fb.com/TipOcho" target="_blank"> <img class="icon-inforTeamProfile" src="images/icon/fb.png" alt="TipOcho Studio" width="18"></a>
-                                            <a href="http://youtube.com/TipOcho" target="_blank"> <img class="icon-inforTeamProfile" src="images/icon/youtube.png" alt="TipOcho Studio"
-                                            height="22" width="18"></a>
-                                        </div>
+                                </div>
+                                <div class="inforTeamItems">
+                                    <div class="inforTeamItemsLeft">
+                                        Phone:
+                                    </div>
+                                    <div class="inforTeamItemsRight">
+                                        033-622-6638
+                                    </div>
+                                </div>
+                                <div class="inforTeamItems">
+                                    <div class="inforTeamItemsLeft">
+                                        More:
+                                    </div>
+                                    <div class="inforTeamItemsRight">
+                                        <a href="http://fb.com/TipOcho" target="_blank"> <img class="icon-inforTeamProfile" src="images/icon/fb.png" alt="TipOcho Studio" width="18"></a>
+                                        <a href="http://youtube.com/TipOcho" target="_blank"> <img class="icon-inforTeamProfile" src="images/icon/youtube.png" alt="TipOcho Studio"
+                                        height="22" width="18"></a>
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-12 col-sm-6 deletePadding lisTopTitleItemsRes">
-                                <div class="wrapProfileTeams" align="center">
-                                    <img class="imgProfileTeamInfor" src="images/basic/phongImgProfile.jpg" alt="TipOcho">
-                                    <div class="teaminforNickName">
-                                        <a href="https://www.facebook.com/Park.Ji.Tae" target="_blank">Tae NoEmotion</a>
+                            <div class="wrapProfileTeams" align="center">
+                                <img class="imgProfileTeamInfor" src="images/basic/phongImgProfile.jpg" alt="TipOcho">
+                                <div class="teaminforNickName">
+                                    <a href="https://www.facebook.com/Park.Ji.Tae" target="_blank">Tae NoEmotion</a>
+                                </div>
+                                <div class="inforTeamItems">
+                                    <div class="inforTeamItemsLeft">
+                                        Name:
                                     </div>
-                                    <div class="inforTeamItems">
-                                        <div class="inforTeamItemsLeft">
-                                            Name:
-                                        </div>
-                                        <div class="inforTeamItemsRight">
-                                            Trần Lê Tất Phong
-                                        </div>
+                                    <div class="inforTeamItemsRight">
+                                        Trần Lê Tất Phong
                                     </div>
-                                    <div class="inforTeamItems">
-                                        <div class="inforTeamItemsLeft">
-                                            Position:
-                                        </div>
-                                        <div class="inforTeamItemsRight">
-                                            Desiger, WP-Developer
-                                        </div>
+                                </div>
+                                <div class="inforTeamItems">
+                                    <div class="inforTeamItemsLeft">
+                                        Position:
                                     </div>
-                                    <div class="inforTeamItems">
-                                        <div class="inforTeamItemsLeft">
-                                            Phone:
-                                        </div>
-                                        <div class="inforTeamItemsRight">
-                                            033-622-6638
-                                        </div>
+                                    <div class="inforTeamItemsRight">
+                                        Desiger, WP-Developer
                                     </div>
-                                    <div class="inforTeamItems">
-                                        <div class="inforTeamItemsLeft">
-                                            More:
-                                        </div>
-                                        <div class="inforTeamItemsRight">
-                                            <a href="https://www.facebook.com/Park.Ji.Tae" target="_blank"> <img class="icon-inforTeamProfile" src="images/icon/fb.png" alt="TipOcho Studio" width="18"></a>
-                                            <a href="http://youtube.com/TipOcho" target="_blank"> <img class="icon-inforTeamProfile" src="images/icon/youtube.png" alt="TipOcho Studio"
-                                            height="22" width="18"></a>
-                                        </div>
+                                </div>
+                                <div class="inforTeamItems">
+                                    <div class="inforTeamItemsLeft">
+                                        Phone:
+                                    </div>
+                                    <div class="inforTeamItemsRight">
+                                        033-622-6638
+                                    </div>
+                                </div>
+                                <div class="inforTeamItems">
+                                    <div class="inforTeamItemsLeft">
+                                        More:
+                                    </div>
+                                    <div class="inforTeamItemsRight">
+                                        <a href="https://www.facebook.com/Park.Ji.Tae" target="_blank"> <img class="icon-inforTeamProfile" src="images/icon/fb.png" alt="TipOcho Studio" width="18"></a>
+                                        <a href="http://youtube.com/TipOcho" target="_blank"> <img class="icon-inforTeamProfile" src="images/icon/youtube.png" alt="TipOcho Studio"
+                                        height="22" width="18"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wrapProfileTeams" align="center">
+                                <img class="imgProfileTeamInfor" src="images/basic/logo-title.gif" alt="TipOcho">
+                                <div class="teaminforNickName">
+                                    <a href="">TIP Ocho</a>
+                                </div>
+                                <div class="inforTeamItems">
+                                    <div class="inforTeamItemsLeft">
+                                        Name:
+                                    </div>
+                                    <div class="inforTeamItemsRight">
+                                        Doãn Bá Thành
+                                    </div>
+                                </div>
+                                <div class="inforTeamItems">
+                                    <div class="inforTeamItemsLeft">
+                                        Position:
+                                    </div>
+                                    <div class="inforTeamItemsRight">
+                                        Founder, Developer
+                                    </div>
+                                </div>
+                                <div class="inforTeamItems">
+                                    <div class="inforTeamItemsLeft">
+                                        Phone:
+                                    </div>
+                                    <div class="inforTeamItemsRight">
+                                        033-622-6638
+                                    </div>
+                                </div>
+                                <div class="inforTeamItems">
+                                    <div class="inforTeamItemsLeft">
+                                        More:
+                                    </div>
+                                    <div class="inforTeamItemsRight">
+                                        <a href="http://fb.com/TipOcho" target="_blank"> <img class="icon-inforTeamProfile" src="images/icon/fb.png" alt="TipOcho Studio" width="18"></a>
+                                        <a href="http://youtube.com/TipOcho" target="_blank"> <img class="icon-inforTeamProfile" src="images/icon/youtube.png" alt="TipOcho Studio"
+                                        height="22" width="18"></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="wrapProfileTeams" align="center">
+                                <img class="imgProfileTeamInfor" src="images/basic/phongImgProfile.jpg" alt="TipOcho">
+                                <div class="teaminforNickName">
+                                    <a href="https://www.facebook.com/Park.Ji.Tae" target="_blank">Tae NoEmotion</a>
+                                </div>
+                                <div class="inforTeamItems">
+                                    <div class="inforTeamItemsLeft">
+                                        Name:
+                                    </div>
+                                    <div class="inforTeamItemsRight">
+                                        Trần Lê Tất Phong
+                                    </div>
+                                </div>
+                                <div class="inforTeamItems">
+                                    <div class="inforTeamItemsLeft">
+                                        Position:
+                                    </div>
+                                    <div class="inforTeamItemsRight">
+                                        Desiger, WP-Developer
+                                    </div>
+                                </div>
+                                <div class="inforTeamItems">
+                                    <div class="inforTeamItemsLeft">
+                                        Phone:
+                                    </div>
+                                    <div class="inforTeamItemsRight">
+                                        033-622-6638
+                                    </div>
+                                </div>
+                                <div class="inforTeamItems">
+                                    <div class="inforTeamItemsLeft">
+                                        More:
+                                    </div>
+                                    <div class="inforTeamItemsRight">
+                                        <a href="https://www.facebook.com/Park.Ji.Tae" target="_blank"> <img class="icon-inforTeamProfile" src="images/icon/fb.png" alt="TipOcho Studio" width="18"></a>
+                                        <a href="http://youtube.com/TipOcho" target="_blank"> <img class="icon-inforTeamProfile" src="images/icon/youtube.png" alt="TipOcho Studio"
+                                        height="22" width="18"></a>
                                     </div>
                                 </div>
                             </div>
@@ -310,6 +425,9 @@
                 </div>                               
             </div>
             <div class="clear"></div>
+
+            <!-- Right SideBar Content Home Page -->
+
             <div class="col-12 col-md-3 deletePadding colAddMarginTop">
                 <div class="row bodyHomeContentCol">
                     <div class="titleSildeRight" align="center">
