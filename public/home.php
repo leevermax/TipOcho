@@ -72,7 +72,7 @@
                         </div> 
                         <div class="lableFooterTop">
                             <h3 class="lableFooterPartHome">Đồng Hành Cùng Phát Triển Doanh Nghiệp Của Bạn.</h3>
-                            <h4 class="lableFooterPartHome">Phát Triển Các Sản Phẩm Công Nghệ Với Đa Nền Tảng: PHP, Java, .Net, Mobile...</h4>
+                            <h4 class="lableFooterPartHome">Phát Triển Các Sản Phẩm Công Nghệ Với Đa Nền Tảng: PHP, Java, .Net, Mobile(Android, IOS)...</h4>
                         </div>     
                     </div>
 
@@ -159,8 +159,8 @@
                         <div class="row titleItemsPageInHome">
                             <h3><i class="fas fa-recycle iconTitlePartPage"></i>Quy Trình Thực Hiên Dự Án:</h3>
                         </div>
-                        <div class="col-12 col-sm-6 deletePadding lisTopTitleItemsRes">
-                            à
+                        <div class="row">
+                            <img src="images/basic/quytrinhduan.png" class="imgQuyTrinhDA" width="98%">
                         </div>
                     </div>       
 
@@ -196,7 +196,15 @@
                         </div>
                         <div class="row">
                             <div class="col-12 col-sm-6 deletePadding lisTopTitleItemsRes">
-                                ndf
+                                <div class="wrapTextOutSource">
+                                    <h5 class="h5NhanOutsource"><i class="fas fa-circle"></i> Nhận dự án outsource ở mọi công đoạn: Thiết kết cơ bản - Thiết kế chi tiết - Lên layout - Code backend...</h5>
+                                    <h5 class="h5NhanOutsource"><i class="fas fa-circle"></i> Giá cả hợp Lý - thương lượng - ưu đãi với khách hàng hợp tác lâu dài.</h5>
+                                    <h5 class="h5NhanOutsource"><i class="fas fa-circle"></i> Cam kết thời gian và chất lượng sản phẩm cũng như sourcecode. Đầy đủ tài liệu và công cụ...</h5>
+                                    <h5 class="h5NhanOutsource"><i class="fas fa-circle"></i> Hỗ trợ khách hàng tham gia theo sát tiến độ - quy trinh thực hiện dự án.</h5>
+                                    <h5 class="h5NhanOutsource"><i class="fas fa-circle"></i> Cam kết hỗ trợ đối tác giao hàng - Hỗ trợ sau giao hàng nếu có yêu cầu từ đối tác.</h5>
+                                    <h5 class="h5NhanOutsource"><i class="fas fa-circle"></i> Cam kết thời gian và chất lượng sản phẩm cũng như sourcecode. Đầy đủ tài liệu và công cụ...</h5>
+                                    <h5 class="h5NhanOutsource"><i class="fas fa-circle"></i> Cam kết bảo mật thông tin khách hàng - bảo mật thông tin dự án.</h5>
+                                </div>                                
                             </div>
                             <div class="col-12 col-sm-6 deletePadding lisTopTitleItemsRes">
                                 <img src="https://thumbs.gfycat.com/OptimalNegligibleAmericanbadger-small.gif" 
@@ -210,11 +218,17 @@
                         <div class="row titleItemsPageInHome">
                             <h3><i class="fas fa-gifts iconTitlePartPage"></i>Những Ưu Đãi Và Miễn Phí:</h3>
                         </div>
-                        <div class="col-12 col-sm-6 deletePadding lisTopTitleItemsRes">
-                            <h5 class="itemLinkPartHome">Chúng Tôi Làm Những Gì</h5>   
-                            <h5 class="itemLinkPartHome">Quy Trình Thực Hiện Dự Án</h5>
-                            <h5 class="itemLinkPartHome">Cam Kết Của Chúng Tôi</h5>
-                        </div>
+                        <div class="row wrapContUuDai">
+                            <p>
+                                <h4 class="itemUuDaih5"><i class="fas fa-star"></i> Miễn phí mọi tư vấn và hỗ trợ về công nghệ.</h4>
+                                <h4 class="itemUuDaih5"><i class="fas fa-star"></i> Thường xuyên tặng Hosting, tên miền, các gói bảo mật và plugin hot...</h4>
+                                <h4 class="itemUuDaih5"><i class="fas fa-star"></i> Tặng các suorce code hot, Hỗ trợ thay đổi logo Submit chạy thử...</h4>
+                                <h4 class="itemUuDaih5"><i class="fas fa-star"></i> Tặng các gói Ads, Tương tác Website và mạng xã hỗi...</h4>
+                                <h4 class="itemUuDaih5"><i class="fas fa-star"></i> Tư vấn miễn phí hỗ trợ seo, các vấn đề kỹ thuật marketing.</h4>
+                                <h4 class="itemUuDaih5"><i class="fas fa-star"></i> Chia sẽ miễn phí những bài học về coding - seo và marketing.</h4>
+                            </p>
+                           
+                        </div>                        
                     </div>   
 
                     <!-- 6. Team Infor -->  
@@ -246,10 +260,10 @@
                             </a>
                         </div>
 
-                        <!-- Produce team  -->
+                        <!-- text Produce team  -->
                         <div class="row produceTeamInfor">
                             <p>
-                                - Đội ngủ team chúng tôi bao gồm thanh viên hoạt động chính thức và các thành viên freelancer cung ứng theo từng dự án. Đội ngũ đầy đủ bộ phận từ thiết kế, coding, test, kỹ thuật, hỗ trợ viên, đội ngũ kỹ thuật marketing - Sell... Đội ngũ gồm nhiều nhân viên giỏi có kinh nghiệm làm việc và hiện đang làm cho nhiều công ty lớn trong nước.</br>
+                                - Đội ngủ team chúng tôi bao gồm thanh viên hoạt động chính thức và các thành viên freelancer cung ứng theo từng dự án. Đội ngũ đầy đủ bộ phận từ thiết kế, coding, test, kỹ thuật, hỗ trợ viên, đội ngũ kỹ thuật marketing - Seo, Conntent... Đội ngũ gồm nhiều nhân viên giỏi có kinh nghiệm làm việc và hiện đang làm cho nhiều công ty lớn trong nước.</br>
                                 - Đội ngủ team trẻ, tích cực năng động, có tâm huyết... Team đang cố găng làm tốt để phát triển đi vào hoạt động chính thức.
                             </p>
                         </div>
@@ -470,6 +484,9 @@
 
     <!--   jquery -->
     <script src="assets/js/main-js.js"></script>
+
+    <!--  Home jquery -->
+    <script src="assets/js/home-js.js"></script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

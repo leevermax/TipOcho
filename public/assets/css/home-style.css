@@ -103,6 +103,12 @@
 	color: #FF6600;
 }
 
+/* 2. Quy Trình*/
+.imgQuyTrinhDA{
+	margin-top: 15px;
+	margin: auto;
+}
+
 /* 3. Ưu điểm của tipocho*/
 .textUuDiemTipOcho{
 	width: 98%;
@@ -114,6 +120,23 @@
 .textUuDiemP{
 	margin-top: 10px;
 	color: #FF6600;
+}
+
+/* 4. nhận outsource*/
+.wrapTextOutSource{
+	width: 95%;
+	margin-top: 10px!important;
+	margin-left: 10px!important;
+}
+
+/* 5. Ưu đãi - quà tặng*/
+.wrapContUuDai{
+	background: url("https://i.pinimg.com/originals/bd/9b/4e/bd9b4e222885a996ed309a4a50eb1fd8.gif");
+}
+.itemUuDaih5{
+	margin-top: 15px;
+	margin-left: 10px;
+	color: #0000EE;
 }
 
 /* 6 Team Infor*/

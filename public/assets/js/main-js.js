@@ -26,7 +26,7 @@ jQuery(document).ready(function($) {
     	$("#contentLeftSidebarAcSlide").slideToggle("slow");    
     });
 
-    /*Got Part Page*/
+    /*Goto 1-6 Part Page*/
     $(".whatWeDo1").click(function(event) {
     	$('html, body').animate({
 	        scrollTop: $("#whatWeDo1").offset().top - 100
@@ -68,4 +68,6 @@ jQuery(document).ready(function($) {
 	    	$("#rowSearchMain").removeClass( "fixedForSearchRow" );
 	    }
 	});
+
+    
 });
