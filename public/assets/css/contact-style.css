@@ -1,0 +1,77 @@
+/* Top Contact:*/
+.contentCatePage1{
+	width: 100%;
+	background-color: #FFFFFF;
+	overflow: auto;
+}
+.crTitlePage{
+	width: auto;
+	padding: 4px;
+	background:transparent;
+	padding-right: 30px;
+	box-shadow: 4px 4px 4px #888888;
+	border-bottom: 3px solid #BBBBBB;
+	border-left: 10px solid #FF6600;
+}
+.ctInforTextContact{
+	width: 100%;
+	margin-top: 25px;
+	padding: 15px;
+	position: relative;
+	overflow: hidden;
+}
+.wrapItemContact{
+	z-index: 1000;
+	position: relative;
+}
+.ctItemTextContact{
+	color: #FF6600;
+}
+.iconItemContact{
+	font-size: 25px!important;
+	color: #FF6600;
+}
+.imgBackgTopContact{
+	width: 250px;
+	position: absolute;
+	top: 0px;
+	right: 25px;
+	opacity: 0.8;
+}
+.mapContact{
+	width: 95%;
+	min-width: 50px;
+	border: 2px solid #222222;
+	margin: 15px 15px;
+}
+
+/* Form contact*/
+.wrapFormContact{
+	width: 95%;
+	min-width: 350px;
+	margin: 25px auto;
+	background-color: #99FF99;
+	box-shadow: 4px 4px 4px #888888;
+	border-bottom: 3px solid #BBBBBB;
+	z-index: 1000;
+	position: relative;
+}
+.titleFormContact{
+	width: 100%;
+	padding: 4px;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	color: #0000EE;
+}
+.wrapFormThisCont{
+	width: 98%;
+	margin: auto;
+}
+.wrapBtnSubmitContac{
+	width: 50px;
+	margin: auto;
+}
+.btnSubmitContact{
+	margin: auto!important;
+}
