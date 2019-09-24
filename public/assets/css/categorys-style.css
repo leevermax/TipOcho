@@ -1,0 +1,143 @@
+/* Produce Of Category:*/
+.contentCatePage1{
+	width: 100%;
+	background-color: #FFFFFF;
+	overflow: auto;
+}
+.crTitlePage{
+	width: auto;
+	padding: 4px;
+	background:transparent;
+	padding-right: 30px;
+	box-shadow: 4px 4px 4px #888888;
+	border-bottom: 3px solid #BBBBBB;
+	border-left: 10px solid #FF6600;
+}
+.crDecreptionContentCategory{
+	font-size: 14px;
+	font-weight: bold;
+	margin: 15px 0px;
+	padding-left: 15px;
+}
+.hrTopPostDetail{
+	width: 40%;
+	margin: 5px auto;
+	height: 5px;
+	border-top: 3px solid #FF6600;
+}
+
+/* Post Of Category:*/
+.contentCategoryCenter2{
+	width: 100%;
+	height: auto;
+	margin-top: 25px!important;
+	background-color: #FFFFFF;
+}
+.wrapPostOfCategory{
+	width: 49.5%;
+	float: left;
+	margin: auto;
+	min-width: 415px;
+	margin-top: 15px!important;
+	margin: auto;
+	border: 1px solid #000000;
+	transition-duration: 0.5s;
+        /* Safari & Google Chrome */
+        -webkit-transition-duration: 0.5s; 
+        /* Mozilla Firefox */
+        -moz-transition-duration: 0.5s; 
+        /* Opera */
+        -o-transition-duration: 0.5s;
+        /* IE 9 */
+        -ms-transition-duration: 0.5s;
+}
+.wrapPostOfCategory:hover {
+	background-color: #EEEEEE;
+    transform: scale(1.02);
+        /* Safari & Google Chrome - kích thước phóng ra*/
+        -webkit-transform: scale(1.02);
+        /* Mozilla Firefox - kích thước phóng ra*/
+        -moz-transform: scale(1.02); 
+        /* Opera - kích thước phóng ra*/
+        -o-transform: scale(1.02);
+        /* IE 9 - kích thước phóng ra*/
+        -ms-transform: scale(1.02);
+    cursor: pointer; 
+}
+.titleNewPost{
+	width: 100%;
+}
+.imgPostOfCategory{
+	width: 180px;
+	height: 146px;
+	float: left;
+	background-color: blue;
+}
+.imgPostOfCategory .imgPostCat{
+	width: 100%;
+	height: 146px
+}
+.contentTextPostCategory{
+	width: calc(100% - 182px);
+	height: 146px;
+	float: left;
+}
+.titlePostCategory{
+	height: 38px;
+	padding: 2px;
+	overflow: hidden;
+}
+.titleTextPostCat{
+	color: #FF6600;
+	text-decoration: none;
+}
+.desrectionPostCat{
+	height: 82px;
+	padding: 2px;
+	overflow: hidden;
+	font-size: 16px;
+	color: #999999;
+}
+.datePostAndViewa{
+	width: 100%;
+	height: 25px;
+	font-size: 12px;
+	color: #CC9933;
+	border-top: 1px solid #999999;
+}
+.datePostCat, .viewsPostCat{
+	width: 50%;
+	float: left;
+	text-align: center;
+}
+.titleNewPost{
+	font-weight: bold;
+}
+
+/* Phân trang*/
+.sPlitPage{
+	width:100%;
+	margin: 15px 0px!important;
+	padding-top: 10px;
+	border-top: 1px solid #BBBBBB;
+}
+.pTr-modal-3{
+	margin: auto;
+	margin-top: 25px;
+}
+.pTr-modal-3 a {
+  margin:0px 1px;
+  padding: 10px;
+  height: 50px;
+  line-height: 30px;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  border: 0.5px solid #BBBBBB;
+}
+.pTr-modal-3 a:hover {
+  background-color: #FF9933;
+}
+.pTr-modal-3 a.active, .pTr-modal-3 a:active {
+  background-color: #FF6600;
+}
