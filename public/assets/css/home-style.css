@@ -105,8 +105,31 @@
 
 /* 2. Quy Trình*/
 .imgQuyTrinhDA{
+	width: 95%;
 	margin-top: 15px;
 	margin: auto;
+	transition-duration: 0.5s;
+        /* Safari & Google Chrome */
+        -webkit-transition-duration: 0.5s; 
+        /* Mozilla Firefox */
+        -moz-transition-duration: 0.5s; 
+        /* Opera */
+        -o-transition-duration: 0.5s;
+        /* IE 9 */
+        -ms-transition-duration: 0.5s;
+}
+.imgQuyTrinhDA:hover{
+	transform: scale(1.02);
+        /* Safari & Google Chrome - kích thước phóng ra*/
+        -webkit-transform: scale(1.02);
+        /* Mozilla Firefox - kích thước phóng ra*/
+        -moz-transform: scale(1.02); 
+        /* Opera - kích thước phóng ra*/
+        -o-transform: scale(1.02);
+        /* IE 9 - kích thước phóng ra*/
+        -ms-transform: scale(1.02);
+    cursor: pointer; 
+    border: 2px solid #000000;
 }
 
 /* 3. Ưu điểm của tipocho*/

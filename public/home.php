@@ -160,7 +160,8 @@
                             <h3><i class="fas fa-recycle iconTitlePartPage"></i>Quy Trình Thực Hiên Dự Án:</h3>
                         </div>
                         <div class="row">
-                            <img src="images/basic/quytrinhduan.png" class="imgQuyTrinhDA" width="98%">
+                            <img src="images/basic/quytrinhduan.png" id="imgQuyTrinhDA" 
+                            class="imgQuyTrinhDA" width="98%">
                         </div>
                     </div>       
 
