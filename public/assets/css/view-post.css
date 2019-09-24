@@ -11,6 +11,7 @@
 	background-color: #33FF66;
 	opacity: 0.6;
 	height: 45px;
+	font-weight: bold;
 	margin-bottom: 0px!important;
 	display: none;
 }
@@ -20,7 +21,7 @@
 }
 .titlePostViewPostDetail{
 	width: 90%;
-	margin: 35px auto;
+	margin: 100px auto;
 	font-weight: bold;
 	color: #FF0066;
 	text-align: center;
