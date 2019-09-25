@@ -14,7 +14,9 @@ RewriteRule "^Product-([a-zA-Z0-9_-]+)-Pro=([0-9]+).html$" "public/detaildisk.ph
 
 
 
-RewriteRule "Post-([a-zA-Z0-9_-]+)-Post=([0-9]+).html$" "public/viewpost.php?post=$2"
+RewriteRule "^Post.html$" "public/view-post.php"
+RewriteRule "^Design-Web-App.html$" "public/design-web-app.php"
+RewriteRule "^Contact.html$" "public/contact-page.php"
 
 
 RewriteRule "^Cagetory-([a-zA-Z0-9_-]+)-Loai=([0-9]+).html$" "public/cagetory.php?loai=$2"

@@ -22,34 +22,6 @@
 	animation: my 1150ms infinite;
 }
 
-/* Body Content Style */
-.bodyHomeContentCol, .fooderHomeSite{
-	width: 99%;
-	margin: 5px auto!important;
-	background-color: #FFFFFF;
-	border-radius: 5px;
-	padding-top: 15px;
-	padding-bottom: 10px;
-}
-.bodyHomeContentCol .itemLinkPartHome{
-	text-align: center;
-	cursor: pointer;
-	margin-left: 10px;
-	margin-top: 30px;
-	padding-left: 5px;
-	font-weight: bold;
-	-webkit-animation: my 1150ms infinite;
-	-moz-animation: my 1110ms infinite; 
-	-o-animation: my 1000ms infinite; 
-	animation: my 1150ms infinite;
-}
-.bodyHomeContentCol .itemLinkPartHome:hover{
-	text-decoration: underline;
-	cursor: pointer;
-}
-.midFooterContent{
-	padding-left: 10px;
-}
 
 /* Làm chữ nhấp nháy */
 @-webkit-keyframes my {

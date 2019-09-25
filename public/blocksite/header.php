@@ -59,7 +59,7 @@
         <a class="nav-link itemNavLink" href="#">Team Infor</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link itemNavLink" href="#">Liên Hệ</a>
+        <a class="nav-link itemNavLink" href="../Contact.html">Liên Hệ</a>
       </li>               
     </ul>    
   </div>

@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
     <title>HOME - Tip-Ocho Studio</title>
 	<link rel="shortcut icon" type="image/x-icon" href="images/basic/logo-title.gif" />
