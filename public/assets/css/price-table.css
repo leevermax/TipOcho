@@ -38,6 +38,9 @@
 .iteamTitlePriceTask{
 	font-size: 24px;
 }
+.imgToView{
+	max-width: 100px;
+}
 
 /*Website Table price*/
 .screenNumberWeb{

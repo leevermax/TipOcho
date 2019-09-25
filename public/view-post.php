@@ -109,7 +109,9 @@
                             <img class="card-img-top vpImgCardPostDem" src="https://znews-photo.zadn.vn/w660/Uploaded/bpmoqwq1/2014_08_12/9a.jpg"
                               alt="Card image cap">
                             <div class="card-body">
-                              <h4 class="card-title pdCardNamePost">Card title</h4>
+                              <a href="">
+                                <h4 class="card-title pdCardNamePost">Card title Some quick example text to build on the card title and make up the bulk of the</h4>
+                              </a>
                               <p class="card-text">Some quick example text to build on the card title and make up the bulk of the Some quick example text to build on the card title and make up the bulk of the Some quick example text to build on the card title and make up the bulk of the Some quick example text to build on the card title and make up the bulk of the Some quick example text to build on the card title and make up the bulk of the
                                 card's content.</p>
                               <div class="vpCateOfPostDem">

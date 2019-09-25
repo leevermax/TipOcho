@@ -1,33 +1,40 @@
+<!doctype html>
 <html lang="en">
 <head>
     <title>Bảng Giá - TipOcho Studio</title>
+	<link rel="shortcut icon" type="image/x-icon" href="images/basic/logo-title.gif" />
 
     <!-- Required meta tags -->
     <meta charset="utf-8"> 
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <!-- Base tag  -->
-   <!--  <base href="public/"> -->
+    <base href="public/">
 
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/main-style.css">
 
-    <!-- HOME CSS -->
+    <!-- CATEGORY CSS -->
     <link rel="stylesheet" href="assets/css/price-table.css">
-
+    
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="assets/css/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
 
     <!--   jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="assets/js/jquery-3.4.1.js"></script>
 
 </head>
 
 <body class="wrapPage">   
+
+    <!-- Header -->
     <section class="blockSection">
-        
+        <?php
+            require "blocksite/header.php";
+        ?>
     </section>
     <section class="blockSection">
         <div class="row bodyHomeSite">
@@ -199,19 +206,100 @@
                         </table>
                         <div class="wrapSumWebsite">
                            <div class="sumWebsiteLeft">
-                               <h3>Tổng số Màn hình:</h3>
+                               <h4>Tổng số Màn hình:</h4>
                            </div> 
                            <div class="sumWebsiteRight">
-                               <h3 id="sumScreenWebsite">11</h3>
+                               <h4 id="sumScreenWebsite">11</h4>
                            </div>
                         </div>
                         <div class="wrapSumWebsite">
                            <div class="sumWebsiteLeft">
-                               <h3>Chi Phí Ước Tính:</h3>
+                               <h4>Chi Phí Ước Tính:</h4>
                            </div> 
                            <div class="sumWebsiteRight">
-                               <h3 id="sumFeeWebsite">110000đ</h3>
+                               <h4 id="sumFeeWebsite">110000đ</h4>
                            </div>
                         </div>
                     </div>
-                    
+                    <div class="contentCatePage1">
+                        <div class="tableNamePrice">
+                            <i class="fas fa-mobile-alt iteamTitlePriceTask"></i> Mobile App
+                        </div>
+                        <div class="wrapLoading">
+                            <span>Đang Cập Nhật...</span>
+                            <div class="spinner-border text-primary loadingImag" role="status">
+                              <span class="sr-only">Loading...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contentCatePage1">
+                        <div class="tableNamePrice">
+                            <i class="fas fa-bullhorn iteamTitlePriceTask"></i></i> Seo Web - Content Building
+                        </div>
+                        <div class="wrapLoading">
+                            <span>Đang Cập Nhật...</span>
+                            <div class="spinner-border text-primary loadingImag" role="status">
+                              <span class="sr-only">Loading...</span>
+                            </div>
+                        </div>
+                    </div>                                              
+                </div>                    
+            </div>
+            <div class="clear"></div>
+
+            <!-- Right SideBar Content Home Page -->
+
+            <div class="col-12 col-md-3 deletePadding colAddMarginTop">
+                <div class="row bodyHomeContentCol">
+                    <div class="titleSildeRight" align="center">
+                        <i class="fas fa-hand-point-right"></i>
+                        <span>Bài Viết Hot</span>
+                    </div>
+                    <div class="postNewListWrap">
+                        <div class="row postNewWrap">
+                            <div class="wrapImgNewPost" align="left">
+                                <img src="images/post-img/cl.jpg" class="rounded imgNewPost">
+                            </div>
+                            <div class="wrapTextItemPost">
+                                <div class="row titleNewPostItem">
+                                    <a href="" class="titleTextNewPostItem">
+                                        <span>email me aaaaaaa aaaaa aaaa</span>
+                                    </a>
+                                </div>
+                                <div class="row descrisNewPostItem">
+                                    fdnnnnnnnnnnnnnsb
+                                    tghkvglmgjd fdjjdj  dfjfhđhfcfghdn ndxsdg cdjn
+                                    gfmmvghfb sdhrhrddhyr
+                                    gmfjv
+                                </div>
+                                <div class="viewsPostHot" align="center">
+                                    <i class="fas fa-eye eyesViewHotPost"></i> 2222
+                                </div>
+                            </div>
+                        </div>
+                         
+                    </div>
+                </div>               
+            </div>
+        </div>
+    </section> 
+
+    <!-- Footer -->
+    <section class="blockSection">
+        <?php
+            require "blocksite/fooder.php";
+            require "blocksite/view-images.php";
+        ?>
+    </section>
+
+    <!--   jquery -->
+    <script src="assets/js/main-js.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

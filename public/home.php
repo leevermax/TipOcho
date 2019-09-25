@@ -160,7 +160,7 @@
                         </div>
                         <div class="row">
                             <img src="images/basic/quytrinhduan.png" id="imgQuyTrinhDA" 
-                            class="imgQuyTrinhDA" width="98%">
+                            class="imgQuyTrinhDA imgToView" width="98%">
                         </div>
                     </div>       
 
@@ -479,6 +479,7 @@
     <section class="blockSection">
         <?php
             require "blocksite/fooder.php";
+            require "blocksite/view-images.php";
         ?>
     </section>
 

@@ -41,7 +41,7 @@
         <a class="nav-link itemNavLink" href="#">Job OutSource</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link itemNavLink" href="#">Bảng Giá</a>
+        <a class="nav-link itemNavLink" href="../Price-Table.html">Bảng Giá</a>
       </li>
       <li class="nav-item">
         <a class="nav-link itemNavLink" href="#">Blog</a>
