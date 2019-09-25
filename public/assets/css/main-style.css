@@ -286,6 +286,107 @@
 	opacity: 1!important;
 }
 
+
+/*VIEW IMAGES===================================*/
+.imgToView{
+	margin: 2px;
+	border:1px solid #000000;
+}
+.imgToView:hover{
+	cursor: pointer;
+}
+.modalViewImages {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+/* Modal Content (image) */
+.modal-contentViewImages {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 900px;
+}
+
+/* Caption of Modal Image */
+#captionViewImages {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  text-align: center;
+  color: #ccc;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-contentViewImages, #captionViewImages {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.closeViewImages {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.closeViewImages:hover,
+.closeViewImages:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-contentViewImages {
+    width: 100%;
+  }
+}
+
+.messageTimingToVisit{
+	width: 300px;
+	height: 70px;
+	color: green;
+	text-align: center;
+	position: fixed;
+	bottom: 2px;
+	left: 0px;
+	display: none;
+}
+.imgTiming{
+	width: 60%;
+	height: 30px;
+	margin: 2px auto;
+}
+
 /* configure responsive */
 @media screen and (min-width: 576px) 
 and (max-width: 768px){

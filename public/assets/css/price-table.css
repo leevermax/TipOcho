@@ -1,0 +1,84 @@
+/* Top Contact:*/
+.contentCatePage1{
+	width: 100%;
+	background-color: #FFFFFF;
+	overflow: auto;
+	margin-bottom: 35px;
+}
+.crTitlePage{
+	width: auto;
+	padding: 4px;
+	background:transparent;
+	padding-right: 30px;
+	box-shadow: 4px 4px 4px #888888;
+	border-bottom: 3px solid #BBBBBB;
+	border-left: 10px solid #FF6600;
+}
+.ctInforTextContact{
+	width: 100%;
+	margin-top: 25px;
+	padding: 15px;
+	overflow: auto;
+	font-weight: bold;
+	color: #0000FF;
+	font-size: 18px;
+}
+.importantText{
+	color: #DF0101;
+}
+.tableNamePrice{
+	width: 100%;
+	margin-top: 25px;
+	padding: 1px 15px;
+	text-align: right;
+	font-size: 24px;
+	color: #FF6600;
+	border-bottom: 1px solid #FF6600;
+}
+.iteamTitlePriceTask{
+	font-size: 24px;
+}
+
+/*Website Table price*/
+.screenNumberWeb{
+	max-width: 45px;
+	margin: auto;
+}
+.hotFunc{
+	color: #FF0000;
+}
+.wrapSumWebsite{
+	width: 100%;
+	margin-top: 0px;
+	padding-left: 15px;
+	overflow: auto;
+	margin-bottom: 25px;
+}
+.sumWebsiteLeft{
+	width: 40%;
+	float: left;
+	padding: 2px;
+	border-bottom: 0.5px solid #00FF00;
+	font-weight: bold;
+}
+.sumWebsiteRight{
+	width: 40%;
+	float: left;
+	padding: 2px;
+	font-weight: bold;
+	border-bottom: 0.5px solid #00FF00;
+	color: #FF6600;
+}
+
+/*Website Table price*/
+.wrapLoading{
+	width: 250px;
+	color: #3366CC;
+	font-size: 35px;
+	margin: 35px auto;
+	font-weight: bold;
+}
+.loadingImag{
+	width: 45px;
+	margin: auto;
+}
