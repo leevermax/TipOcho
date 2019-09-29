@@ -31,7 +31,7 @@
             </div>
         </div>
     </div>
- <p class="endPageCopyRight">©Copyright 2019 Tip-Ocho Studio | By TipOcho TipOcho.vn</p>
+ <p class="endPageCopyRight">©Copyright 2019 TipOcho Studio | By Tip TipOcho.vn</p>
 </div>
 
 <div id="fb-root"></div>

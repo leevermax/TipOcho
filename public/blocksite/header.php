@@ -32,31 +32,31 @@
         <a class="nav-link itemNavLink" href="../Home.html">Home <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link itemNavLink" href="#">Thiết Kế WebSite - Ứng Dụng</a>
+        <a class="nav-link itemNavLink" href="../Design-Web-App.html">Thiết Kế WebSite - Ứng Dụng</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link itemNavLink" href="#">Marketig Digital</a>
+        <a class="nav-link itemNavLink" href="../Design-Web-App.html">Marketig Digital</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link itemNavLink" href="#">Job OutSource</a>
+        <a class="nav-link itemNavLink" href="../Design-Web-App.html">Job OutSource</a>
       </li>
       <li class="nav-item">
         <a class="nav-link itemNavLink" href="../Price-Table.html">Bảng Giá</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link itemNavLink" href="#">Blog</a>
+        <a class="nav-link itemNavLink" href="../Design-Web-App.html">Blog</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link itemNavLink" href="#">MMO</a>
+        <a class="nav-link itemNavLink" href="../Design-Web-App.html">MMO</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link itemNavLink" href="#">Dự Án Update</a>
+        <a class="nav-link itemNavLink" href="../Design-Web-App.html">Dự Án Update</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link itemNavLink" href="#">Đối Tác</a>
+        <a class="nav-link itemNavLink" href="../Design-Web-App.html">Đối Tác</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link itemNavLink" href="#">Team Infor</a>
+        <a class="nav-link itemNavLink" href="../Design-Web-App.html">Team Infor</a>
       </li>
       <li class="nav-item">
         <a class="nav-link itemNavLink" href="../Contact.html">Liên Hệ</a>

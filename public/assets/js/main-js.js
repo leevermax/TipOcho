@@ -131,4 +131,18 @@ jQuery(document).ready(function($) {
 		$("#sumScreenWebsite").text(sumScr);	
 		$("#sumFeeWebsite").text(sumFee+" đ");	
 	}	
+
+	/*Game================================================*/
+	var nameGamer = "";
+	nameGamer = $('input[name=hidName]').val();
+	if(nameGamer === ""){
+		$("#formName").show();
+	    $("#bird").hide();
+	    $("#hCore").hide();
+	} else {
+		$("#formName").hide();
+	    $("#bird").show();
+	    $("#hCore").show();
+	}
+
 });
