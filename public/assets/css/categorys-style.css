@@ -34,10 +34,10 @@
 	background-color: #FFFFFF;
 }
 .wrapPostOfCategory{
-	width: 49%;
+	width: 50%;
 	float: left;
 	margin: auto;
-	min-width: 415px;
+	min-width: 315px;
 	margin-top: 15px!important;
 	margin: auto;
 	border: 1px solid #000000;
@@ -141,3 +141,8 @@
 .pTr-modal-3 a.active, .pTr-modal-3 a:active {
   background-color: #FF6600;
 }
+@media screen and (max-width: 1439px){
+	.wrapPostOfCategory{
+		width: 95%;
+	}
+}	

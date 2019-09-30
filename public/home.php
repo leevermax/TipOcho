@@ -43,8 +43,8 @@
                         <span id="titleSildeRightAcSlide">Nội Dúng Nổi Bật</span>
                     </div>
                     <div class="contentLeftSidebar" id="contentLeftSidebarAcSlide">
-                        <a href="" class="hotContLeftSidebar">
-                            <h5><i class="fas fa-highlighter"></i> Hot hshs svhjas vdz zb  dbd</h5>
+                        <a href="../Game-Plappy-Bird.html" class="hotContLeftSidebar">
+                            <h5><i class="fas fa-highlighter"></i> Game Plappy Bird</h5>
                         </a>
                         <a href="" class="hotContLeftSidebar">
                             <h5><i class="fas fa-highlighter"></i> Hot hshs svhjas vdz zb  dbd</h5>
@@ -455,7 +455,7 @@
                             </div>
                             <div class="wrapTextItemPost">
                                 <div class="row titleNewPostItem">
-                                    <a href="" class="titleTextNewPostItem">
+                                    <a href="../Post.html" class="titleTextNewPostItem">
                                         <span>email me aaaaaaa aaaaa aaaa</span>
                                     </a>
                                 </div>
