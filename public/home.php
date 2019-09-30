@@ -37,23 +37,9 @@
     <section class="blockSection">
         <div class="row bodyHomeSite">
             <div class="col-12 col-md-2 deletePadding colAddMarginTop leftContentSildeHomelarge">
-                <div class="row bodyHomeContentCol">
-                    <div class="titleSildeRight" id="titleSildeLeft" align="center">
-                        <i class="fas fa-hand-point-right"></i>
-                        <span id="titleSildeRightAcSlide">Nội Dúng Nổi Bật</span>
-                    </div>
-                    <div class="contentLeftSidebar" id="contentLeftSidebarAcSlide">
-                        <a href="../Game-Plappy-Bird.html" class="hotContLeftSidebar">
-                            <h5><i class="fas fa-highlighter"></i> Game Plappy Bird</h5>
-                        </a>
-                        <a href="" class="hotContLeftSidebar">
-                            <h5><i class="fas fa-highlighter"></i> Hot hshs svhjas vdz zb  dbd</h5>
-                        </a>
-                        <a href="" class="hotContLeftSidebar">
-                            <h5><i class="fas fa-highlighter"></i> Hot hshs svhjas vdz zb  dbd</h5>
-                        </a>
-                    </div>
-                </div>
+                <?php
+                    require "blocksite/left-sidebar.php";
+                ?>
             </div>
             <div class="clear"></div>
             <div class="col-12 col-md-7 deletePadding colAddMarginTop">
@@ -443,36 +429,9 @@
             <!-- Right SideBar Content Home Page -->
 
             <div class="col-12 col-md-3 deletePadding colAddMarginTop">
-                <div class="row bodyHomeContentCol">
-                    <div class="titleSildeRight" align="center">
-                        <i class="fas fa-hand-point-right"></i>
-                        <span>Bài Viết Hot</span>
-                    </div>
-                    <div class="postNewListWrap">
-                        <div class="row postNewWrap">
-                            <div class="wrapImgNewPost" align="left">
-                                <img src="images/post-img/cl.jpg" class="rounded imgNewPost">
-                            </div>
-                            <div class="wrapTextItemPost">
-                                <div class="row titleNewPostItem">
-                                    <a href="../Post.html" class="titleTextNewPostItem">
-                                        <span>email me aaaaaaa aaaaa aaaa</span>
-                                    </a>
-                                </div>
-                                <div class="row descrisNewPostItem">
-                                    fdnnnnnnnnnnnnnsb
-                                    tghkvglmgjd fdjjdj  dfjfhđhfcfghdn ndxsdg cdjn
-                                    gfmmvghfb sdhrhrddhyr
-                                    gmfjv
-                                </div>
-                                <div class="viewsPostHot" align="center">
-                                    <i class="fas fa-eye eyesViewHotPost"></i> 2222
-                                </div>
-                            </div>
-                        </div>
-                         
-                    </div>
-                </div>               
+                <?php
+                    require "blocksite/right-sidebar.php";
+                ?>            
             </div>
         </div>
     </section> 
