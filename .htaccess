@@ -1,19 +1,6 @@
 RewriteEngine On
 RewriteRule "Home.html" "public/home.php"
 
-RewriteRule "Am-Thuc-Binh-Dinh.html" "public/newspageamthuc.php"
-RewriteRule "Du-Lich-Binh-Dinh.html" "public/newspagedulich.php"
-RewriteRule "Bai-Viet-Ve-Shop.html" "public/newspageshop.php"
-RewriteRule "Lien-He.html" "public/contact.php"
-RewriteRule "Xem-Gio-Hang.html" "public/payprocess.php"
-RewriteRule "Dang-Nhap-Thanh-Toan.html" "public/payprocess.php?step=2"
-RewriteRule "Thong-Tin-Mua-Hang.html" "public/payprocess.php?step=3"
-RewriteRule "Thanh-Toan-Don-Hang.html" "public/payprocess.php?step=4"
-RewriteRule "Hoan-Thanh-Don-Hang.html" "public/payprocess.php?step=5"
-RewriteRule "^Product-([a-zA-Z0-9_-]+)-Pro=([0-9]+).html$" "public/detaildisk.php?title=$1-&sp=$2"
-
-
-
 RewriteRule "^Post.html$" "public/view-post.php"
 RewriteRule "^Design-Web-App.html$" "public/design-web-app.php"
 RewriteRule "^Contact.html$" "public/contact-page.php"
