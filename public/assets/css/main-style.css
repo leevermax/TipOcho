@@ -349,7 +349,7 @@
 /* The Close Button */
 .closeViewImages {
   position: absolute;
-  top: 15px;
+  top: 25px;
   right: 35px;
   color: #f1f1f1;
   font-size: 40px;
@@ -388,6 +388,12 @@
 }
 
 /* configure responsive */
+@media only screen and (max-width: 576px){
+  /*change silde content mobile vs pc*/ 
+	#contentLeftSidebarAcSlide{
+		display: none;
+	}
+}
 @media screen and (min-width: 576px) 
 and (max-width: 768px){
 	.logoRow .imgLogoWrap{

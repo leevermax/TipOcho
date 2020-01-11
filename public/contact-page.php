@@ -65,7 +65,7 @@
                             <h2>Liên Hệ TipOch-Studio</h2>
                         </div>
                         <div class="ctInforTextContact">
-                            <img src="https://technocred.com/wp-content/uploads/2019/07/contact-girl1.gif" class="imgBackgTopContact">
+                            <img src="images/basic/contact.png" class="imgBackgTopContact">
                             <div class="wrapItemContact">                                
                                 <h3 class="ctItemTextContact"><i class="fas fa-phone-square iconItemContact"></i>:
                                     084 555 989

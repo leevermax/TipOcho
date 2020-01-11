@@ -96,9 +96,7 @@
         </div>
     </section>
     <section class="blockSection">
-        <?php
-            require "blocksite/fooder.php";
-        ?>
+        
     </section>
     <input type="hidden" name="hidName" id="nameGamer" value="<?php echo $_SESSION["nameBird"]; ?>">
 

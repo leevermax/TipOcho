@@ -7,11 +7,6 @@
       <a href="../Game-Plappy-Bird.html" class="hotContLeftSidebar">
           <h5><i class="fas fa-highlighter"></i> Game Plappy Bird</h5>
       </a>
-      <a href="" class="hotContLeftSidebar">
-          <h5><i class="fas fa-highlighter"></i> Hot hshs svhjas vdz zb  dbd</h5>
-      </a>
-      <a href="" class="hotContLeftSidebar">
-          <h5><i class="fas fa-highlighter"></i> Hot hshs svhjas vdz zb  dbd</h5>
-      </a>
+      
   </div>
 </div>
