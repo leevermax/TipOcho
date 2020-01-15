@@ -29,6 +29,9 @@
 	width: 99%;
 	margin-bottom: 10px;
 }
+a:hover{
+	text-decoration: none!important;
+}
 
 
 /* Body Content Style */

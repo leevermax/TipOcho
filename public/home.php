@@ -144,9 +144,41 @@
                         <div class="row titleItemsPageInHome">
                             <h3><i class="fas fa-recycle iconTitlePartPage"></i>Quy Trình Thực Hiên Dự Án:</h3>
                         </div>
-                        <div class="row">
+                        <div class="row wrapImgProcess">
                             <img src="images/basic/quytrinhduan.png" id="imgQuyTrinhDA" 
                             class="imgQuyTrinhDA imgToView" width="98%">
+                        </div>
+                        <div class="row titleStepImport">
+                            <h4>Mốc Quan Trọng Của Dự Án:</h4>
+                        </div>
+                        <div class="row importStepProject">
+                            <div class="row textStepImport">
+                                <h5 class="textStepImport"><i class="far fa-dot-circle"></i> Bàn giao dự án.</h5>
+                            </div>                            
+                            <div class="lineOfStepImport"></div>
+                            <div class="row textStepImport">
+                                <h5 class="textStepImport"><i class="far fa-dot-circle"></i> Thiết kế admin và demo.</h5>
+                            </div>                            
+                            <div class="lineOfStepImport"></div>
+                            <div class="row textStepImport">
+                                <h5 class="textStepImport"><i class="far fa-dot-circle"></i> Demo chức năng.</h5>
+                            </div>                            
+                            <div class="lineOfStepImport"></div>
+                            <div class="row textStepImport">
+                                <h5 class="textStepImport"><i class="far fa-dot-circle"></i> Demo giao diện.</h5>
+                            </div>                            
+                            <div class="lineOfStepImport"></div>
+                            <div class="row textStepImport">
+                                <h5 class="textStepImport"><i class="far fa-dot-circle"></i> Xác nhận lại ý tưởng khách hàng.</h5>
+                            </div>                            
+                            <div class="lineOfStepImport"></div>
+                            <div class="row textStepImport">
+                                <h5 class="textStepImport"><i class="far fa-dot-circle"></i> Phân tích yêu cầu - thiết hướng giải quyết dự án.</h5>
+                            </div>                            
+                            <div class="lineOfStepImport"></div>
+                            <div class="row textStepImport">
+                                <h5 class="textStepImport"><i class="far fa-dot-circle"></i> Nhận yêu cầu của khách hàng.</h5>
+                            </div> 
                         </div>
                     </div>       
 
